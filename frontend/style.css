@@ -1,0 +1,15 @@
+label, input {
+    display: block;
+}
+
+input{
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+/* this is from <div> so # is needed */
+#login-info { 
+    text-align: center;
+    margin: 10px;
+}

@@ -1,0 +1,52 @@
+package com.revature.controller;
+
+import com.revature.dto.LoginDTO;
+
+import io.javalin.Javalin;
+import io.javalin.http.Handler;
+
+
+//authentication= providing credentials to identify who you are
+public class AuthenticationController implements Controller {
+
+	
+	
+	//Whenever working with ENDPOINTS, ALWAYS ask yourself what information is needed to send to
+	//the server?
+	//to log into something, we need to send
+		//1.username
+		//2.password
+	//Where should this info be contained inside the HTTP request?
+		//1.request body --> discrete location for login credentials (JSON)
+		//2.path parameter(required) --> http://localhost:8080/login/employees
+		//3.query parameter(optional) --> the key value pairs
+		//4.form data --> discrete location for login credentials (key/value pair)
+	//How do I receive this info inside of endpoint handler? (dto)
+		//1.JSON in request body? cts.bodyAsClass
+		//2. path param? ctx.pathParam(<path param name>)
+		//3. query param? ctsx.queryParam(<query param name>)
+		//4. form data? ctx.formData(<key name>)
+	private Handler login = (ctx) -> {
+		//use request body(JSON) for log in 
+		//DTO is needed to put that info somewhere
+		LoginDTO loginDTO = ctx.bodyAsClass(LoginDTO.class);
+		System.out.println(loginDTO.getUsername());
+		System.out.println(loginDTO.getPassword());
+	};
+	
+	private Handler logout = (ctx) -> {
+		
+	};
+
+	@Override
+	public void mapEndpoints(Javalin app) {
+		app.post("/login", login);
+		app.post("/logout", logout);
+	}
+	
+	
+	
+	
+}
+
+

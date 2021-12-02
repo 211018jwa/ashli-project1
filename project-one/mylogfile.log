@@ -1,0 +1,1120 @@
+23 Nov 2021 - 23:17:01.223 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2351ms to org.eclipse.jetty.util.log.Slf4jLog
+23 Nov 2021 - 23:17:01.458 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+23 Nov 2021 - 23:17:01.933 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+23 Nov 2021 - 23:17:01.938 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+23 Nov 2021 - 23:17:02.022 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+23 Nov 2021 - 23:17:03.197 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+23 Nov 2021 - 23:17:03.199 [main] INFO  io.javalin.Javalin - Javalin started in 1265ms \o/
+25 Nov 2021 - 13:30:32.910 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @5367ms to org.eclipse.jetty.util.log.Slf4jLog
+25 Nov 2021 - 13:30:33.486 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+25 Nov 2021 - 13:30:34.171 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+25 Nov 2021 - 13:30:34.180 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+25 Nov 2021 - 13:30:34.306 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+25 Nov 2021 - 13:30:35.770 [main] ERROR io.javalin.Javalin - Failed to start Javalin
+25 Nov 2021 - 13:30:35.774 [main] INFO  io.javalin.Javalin - Stopping Javalin ...
+25 Nov 2021 - 13:30:35.800 [main] INFO  io.javalin.Javalin - Javalin has stopped
+25 Nov 2021 - 13:38:58.600 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1863ms to org.eclipse.jetty.util.log.Slf4jLog
+25 Nov 2021 - 13:38:58.836 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+25 Nov 2021 - 13:38:59.175 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+25 Nov 2021 - 13:38:59.179 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+25 Nov 2021 - 13:38:59.232 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+25 Nov 2021 - 13:39:00.064 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+25 Nov 2021 - 13:39:00.065 [main] INFO  io.javalin.Javalin - Javalin started in 889ms \o/
+26 Nov 2021 - 23:23:45.189 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2019ms to org.eclipse.jetty.util.log.Slf4jLog
+26 Nov 2021 - 23:23:45.376 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+26 Nov 2021 - 23:23:45.739 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+26 Nov 2021 - 23:23:45.742 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+26 Nov 2021 - 23:23:45.784 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+26 Nov 2021 - 23:23:46.609 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+26 Nov 2021 - 23:23:46.610 [main] INFO  io.javalin.Javalin - Javalin started in 870ms \o/
+26 Nov 2021 - 23:24:08.514 [qtp1681920301-18] WARN  io.javalin.Javalin - Uncaught exception
+org.postgresql.util.PSQLException: ERROR: relation "project_one.users" does not exist
+  Position: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2674)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2364)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:354)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:484)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:404)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:162)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at com.revature.dao.UserDAO.getUserByUsernameAndPassword(UserDAO.java:21)
+	at com.revature.service.UserService.getUserByUsernameAndPassword(UserService.java:19)
+	at com.revature.controller.AuthenticationController.lambda$0(AuthenticationController.java:50)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-5(JavalinServlet.kt:113)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:44)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service$tryWithExceptionMapper(JavalinServlet.kt:129)
+	at io.javalin.http.JavalinServlet.service$tryBeforeAndEndpointHandlers(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+26 Nov 2021 - 23:25:19.458 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1780ms to org.eclipse.jetty.util.log.Slf4jLog
+26 Nov 2021 - 23:25:19.704 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+26 Nov 2021 - 23:25:19.982 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+26 Nov 2021 - 23:25:19.989 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+26 Nov 2021 - 23:25:20.037 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+26 Nov 2021 - 23:25:20.808 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+26 Nov 2021 - 23:25:20.816 [main] INFO  io.javalin.Javalin - Javalin started in 833ms \o/
+26 Nov 2021 - 23:25:30.413 [qtp1681920301-18] WARN  io.javalin.Javalin - Uncaught exception
+org.postgresql.util.PSQLException: ERROR: relation "users" does not exist
+  Position: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2674)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2364)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:354)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:484)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:404)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:162)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at com.revature.dao.UserDAO.getUserByUsernameAndPassword(UserDAO.java:21)
+	at com.revature.service.UserService.getUserByUsernameAndPassword(UserService.java:19)
+	at com.revature.controller.AuthenticationController.lambda$0(AuthenticationController.java:50)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-5(JavalinServlet.kt:113)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:44)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service$tryWithExceptionMapper(JavalinServlet.kt:129)
+	at io.javalin.http.JavalinServlet.service$tryBeforeAndEndpointHandlers(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+26 Nov 2021 - 23:31:25.636 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1826ms to org.eclipse.jetty.util.log.Slf4jLog
+26 Nov 2021 - 23:31:25.846 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+26 Nov 2021 - 23:31:26.165 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+26 Nov 2021 - 23:31:26.167 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+26 Nov 2021 - 23:31:26.227 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+26 Nov 2021 - 23:31:27.033 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+26 Nov 2021 - 23:31:27.034 [main] INFO  io.javalin.Javalin - Javalin started in 868ms \o/
+26 Nov 2021 - 23:31:43.937 [qtp1681920301-17] WARN  io.javalin.Javalin - Uncaught exception
+org.postgresql.util.PSQLException: The column name id was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2865)
+	at org.postgresql.jdbc.PgResultSet.getInt(PgResultSet.java:2743)
+	at com.revature.dao.UserDAO.getUserByUsernameAndPassword(UserDAO.java:23)
+	at com.revature.service.UserService.getUserByUsernameAndPassword(UserService.java:19)
+	at com.revature.controller.AuthenticationController.lambda$0(AuthenticationController.java:50)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-5(JavalinServlet.kt:113)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:44)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service$tryWithExceptionMapper(JavalinServlet.kt:129)
+	at io.javalin.http.JavalinServlet.service$tryBeforeAndEndpointHandlers(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+26 Nov 2021 - 23:42:37.336 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1864ms to org.eclipse.jetty.util.log.Slf4jLog
+26 Nov 2021 - 23:42:37.548 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+26 Nov 2021 - 23:42:37.824 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+26 Nov 2021 - 23:42:37.828 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+26 Nov 2021 - 23:42:37.881 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+26 Nov 2021 - 23:42:38.657 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+26 Nov 2021 - 23:42:38.658 [main] INFO  io.javalin.Javalin - Javalin started in 834ms \o/
+26 Nov 2021 - 23:42:48.480 [qtp1681920301-18] WARN  io.javalin.Javalin - Uncaught exception
+org.postgresql.util.PSQLException: The column name id was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2865)
+	at org.postgresql.jdbc.PgResultSet.getInt(PgResultSet.java:2743)
+	at com.revature.dao.UserDAO.getUserByUsernameAndPassword(UserDAO.java:23)
+	at com.revature.service.UserService.getUserByUsernameAndPassword(UserService.java:19)
+	at com.revature.controller.AuthenticationController.lambda$0(AuthenticationController.java:50)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-5(JavalinServlet.kt:113)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:44)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service$tryWithExceptionMapper(JavalinServlet.kt:129)
+	at io.javalin.http.JavalinServlet.service$tryBeforeAndEndpointHandlers(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+26 Nov 2021 - 23:53:53.206 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1950ms to org.eclipse.jetty.util.log.Slf4jLog
+26 Nov 2021 - 23:53:53.515 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+26 Nov 2021 - 23:53:53.862 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+26 Nov 2021 - 23:53:53.876 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+26 Nov 2021 - 23:53:53.931 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+26 Nov 2021 - 23:53:54.726 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+26 Nov 2021 - 23:53:54.727 [main] INFO  io.javalin.Javalin - Javalin started in 860ms \o/
+26 Nov 2021 - 23:54:04.886 [qtp1681920301-20] WARN  io.javalin.Javalin - Uncaught exception
+org.postgresql.util.PSQLException: ERROR: relation "users" does not exist
+  Position: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2674)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2364)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:354)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:484)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:404)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:162)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at com.revature.dao.UserDAO.getUserByUsernameAndPassword(UserDAO.java:21)
+	at com.revature.service.UserService.getUserByUsernameAndPassword(UserService.java:19)
+	at com.revature.controller.AuthenticationController.lambda$0(AuthenticationController.java:50)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-5(JavalinServlet.kt:113)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:44)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service$tryWithExceptionMapper(JavalinServlet.kt:129)
+	at io.javalin.http.JavalinServlet.service$tryBeforeAndEndpointHandlers(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+26 Nov 2021 - 23:54:28.160 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1990ms to org.eclipse.jetty.util.log.Slf4jLog
+26 Nov 2021 - 23:54:28.470 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+26 Nov 2021 - 23:54:28.964 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+26 Nov 2021 - 23:54:28.970 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+26 Nov 2021 - 23:54:29.029 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+26 Nov 2021 - 23:54:29.902 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+26 Nov 2021 - 23:54:29.903 [main] INFO  io.javalin.Javalin - Javalin started in 939ms \o/
+26 Nov 2021 - 23:54:43.144 [qtp1681920301-21] WARN  io.javalin.Javalin - Uncaught exception
+org.postgresql.util.PSQLException: The column name id was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2865)
+	at org.postgresql.jdbc.PgResultSet.getInt(PgResultSet.java:2743)
+	at com.revature.dao.UserDAO.getUserByUsernameAndPassword(UserDAO.java:23)
+	at com.revature.service.UserService.getUserByUsernameAndPassword(UserService.java:19)
+	at com.revature.controller.AuthenticationController.lambda$0(AuthenticationController.java:50)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-5(JavalinServlet.kt:113)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:44)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service$tryWithExceptionMapper(JavalinServlet.kt:129)
+	at io.javalin.http.JavalinServlet.service$tryBeforeAndEndpointHandlers(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+26 Nov 2021 - 23:55:12.587 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1583ms to org.eclipse.jetty.util.log.Slf4jLog
+26 Nov 2021 - 23:55:12.861 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+26 Nov 2021 - 23:55:13.185 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+26 Nov 2021 - 23:55:13.189 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+26 Nov 2021 - 23:55:13.235 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+26 Nov 2021 - 23:55:14.236 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+26 Nov 2021 - 23:55:14.238 [main] INFO  io.javalin.Javalin - Javalin started in 1052ms \o/
+27 Nov 2021 - 12:29:06.031 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1476ms to org.eclipse.jetty.util.log.Slf4jLog
+27 Nov 2021 - 12:29:06.212 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+27 Nov 2021 - 12:29:06.475 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+27 Nov 2021 - 12:29:06.480 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+27 Nov 2021 - 12:29:06.536 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+27 Nov 2021 - 12:29:07.288 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+27 Nov 2021 - 12:29:07.289 [main] INFO  io.javalin.Javalin - Javalin started in 813ms \o/
+27 Nov 2021 - 12:51:00.690 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1848ms to org.eclipse.jetty.util.log.Slf4jLog
+27 Nov 2021 - 12:51:00.955 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+27 Nov 2021 - 12:51:01.284 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+27 Nov 2021 - 12:51:01.288 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+27 Nov 2021 - 12:51:01.336 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+27 Nov 2021 - 12:51:02.125 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+27 Nov 2021 - 12:51:02.126 [main] INFO  io.javalin.Javalin - Javalin started in 841ms \o/
+27 Nov 2021 - 12:57:56.546 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2504ms to org.eclipse.jetty.util.log.Slf4jLog
+27 Nov 2021 - 12:57:56.950 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+27 Nov 2021 - 12:57:57.643 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+27 Nov 2021 - 12:57:57.652 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+27 Nov 2021 - 12:57:57.737 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+27 Nov 2021 - 12:57:58.669 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+27 Nov 2021 - 12:57:58.670 [main] INFO  io.javalin.Javalin - Javalin started in 1026ms \o/
+27 Nov 2021 - 12:58:05.770 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1407ms to org.eclipse.jetty.util.log.Slf4jLog
+27 Nov 2021 - 12:58:05.938 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+27 Nov 2021 - 12:58:06.151 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+27 Nov 2021 - 12:58:06.157 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+27 Nov 2021 - 12:58:06.188 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+27 Nov 2021 - 12:58:06.777 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+27 Nov 2021 - 12:58:06.777 [main] INFO  io.javalin.Javalin - Javalin started in 626ms \o/
+27 Nov 2021 - 13:40:28.059 [qtp1681920301-14] WARN  io.javalin.Javalin - Uncaught exception
+javax.security.auth.login.FailedLoginException: Incorrect username and/or password
+	at com.revature.service.UserService.getUserByUsernameAndPassword(UserService.java:22)
+	at com.revature.controller.AuthenticationController.lambda$0(AuthenticationController.java:50)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-5(JavalinServlet.kt:113)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:44)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service$tryWithExceptionMapper(JavalinServlet.kt:129)
+	at io.javalin.http.JavalinServlet.service$tryBeforeAndEndpointHandlers(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+27 Nov 2021 - 13:50:26.250 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1708ms to org.eclipse.jetty.util.log.Slf4jLog
+27 Nov 2021 - 13:50:26.446 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+27 Nov 2021 - 13:50:26.762 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+27 Nov 2021 - 13:50:26.766 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+27 Nov 2021 - 13:50:26.821 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+27 Nov 2021 - 13:50:27.682 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+27 Nov 2021 - 13:50:27.683 [main] INFO  io.javalin.Javalin - Javalin started in 920ms \o/
+27 Nov 2021 - 13:50:52.867 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1595ms to org.eclipse.jetty.util.log.Slf4jLog
+27 Nov 2021 - 13:50:53.076 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+27 Nov 2021 - 13:50:53.397 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+27 Nov 2021 - 13:50:53.401 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+27 Nov 2021 - 13:50:53.438 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+27 Nov 2021 - 13:50:54.047 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+27 Nov 2021 - 13:50:54.047 [main] INFO  io.javalin.Javalin - Javalin started in 649ms \o/
+27 Nov 2021 - 15:05:32.680 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1846ms to org.eclipse.jetty.util.log.Slf4jLog
+27 Nov 2021 - 15:05:32.908 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+27 Nov 2021 - 15:05:35.002 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1356ms to org.eclipse.jetty.util.log.Slf4jLog
+27 Nov 2021 - 15:05:35.119 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+27 Nov 2021 - 15:05:35.413 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+27 Nov 2021 - 15:05:35.418 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+27 Nov 2021 - 15:05:35.471 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+27 Nov 2021 - 15:05:36.296 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+27 Nov 2021 - 15:05:36.297 [main] INFO  io.javalin.Javalin - Javalin started in 884ms \o/
+27 Nov 2021 - 15:53:21.777 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @3919ms to org.eclipse.jetty.util.log.Slf4jLog
+27 Nov 2021 - 15:53:22.106 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+27 Nov 2021 - 15:53:22.881 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+27 Nov 2021 - 15:53:22.902 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+27 Nov 2021 - 15:53:23.104 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+27 Nov 2021 - 15:53:24.913 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+27 Nov 2021 - 15:53:24.920 [main] INFO  io.javalin.Javalin - Javalin started in 2032ms \o/
+27 Nov 2021 - 15:53:27.507 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1351ms to org.eclipse.jetty.util.log.Slf4jLog
+27 Nov 2021 - 15:53:27.666 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+27 Nov 2021 - 15:53:27.940 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+27 Nov 2021 - 15:53:27.943 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+27 Nov 2021 - 15:53:27.969 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+27 Nov 2021 - 15:53:28.391 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+27 Nov 2021 - 15:53:28.391 [main] INFO  io.javalin.Javalin - Javalin started in 451ms \o/
+27 Nov 2021 - 16:11:09.617 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1750ms to org.eclipse.jetty.util.log.Slf4jLog
+27 Nov 2021 - 16:11:09.854 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+27 Nov 2021 - 16:11:10.160 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+27 Nov 2021 - 16:11:10.164 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+27 Nov 2021 - 16:11:10.209 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+27 Nov 2021 - 16:11:10.943 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+27 Nov 2021 - 16:11:10.943 [main] INFO  io.javalin.Javalin - Javalin started in 782ms \o/
+27 Nov 2021 - 23:02:53.592 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1686ms to org.eclipse.jetty.util.log.Slf4jLog
+27 Nov 2021 - 23:02:53.809 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+27 Nov 2021 - 23:02:54.232 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+27 Nov 2021 - 23:02:54.236 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+27 Nov 2021 - 23:02:54.281 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+27 Nov 2021 - 23:02:55.055 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+27 Nov 2021 - 23:02:55.056 [main] INFO  io.javalin.Javalin - Javalin started in 824ms \o/
+27 Nov 2021 - 23:04:43.077 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1635ms to org.eclipse.jetty.util.log.Slf4jLog
+27 Nov 2021 - 23:04:43.235 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+27 Nov 2021 - 23:04:43.524 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+27 Nov 2021 - 23:04:43.528 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+27 Nov 2021 - 23:04:43.565 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+27 Nov 2021 - 23:04:44.220 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+27 Nov 2021 - 23:04:44.221 [main] INFO  io.javalin.Javalin - Javalin started in 697ms \o/
+27 Nov 2021 - 23:06:45.857 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1854ms to org.eclipse.jetty.util.log.Slf4jLog
+27 Nov 2021 - 23:06:46.105 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+27 Nov 2021 - 23:06:46.415 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+27 Nov 2021 - 23:06:46.418 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+27 Nov 2021 - 23:06:46.459 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+27 Nov 2021 - 23:06:47.242 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+27 Nov 2021 - 23:06:47.245 [main] INFO  io.javalin.Javalin - Javalin started in 829ms \o/
+27 Nov 2021 - 23:23:34.862 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1687ms to org.eclipse.jetty.util.log.Slf4jLog
+27 Nov 2021 - 23:23:35.088 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+27 Nov 2021 - 23:23:35.400 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+27 Nov 2021 - 23:23:35.404 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+27 Nov 2021 - 23:23:35.448 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+27 Nov 2021 - 23:23:36.186 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+27 Nov 2021 - 23:23:36.187 [main] INFO  io.javalin.Javalin - Javalin started in 786ms \o/
+28 Nov 2021 - 11:01:01.114 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2797ms to org.eclipse.jetty.util.log.Slf4jLog
+28 Nov 2021 - 11:01:01.341 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+28 Nov 2021 - 11:01:01.712 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+28 Nov 2021 - 11:01:01.716 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+28 Nov 2021 - 11:01:01.758 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+28 Nov 2021 - 11:01:02.529 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+28 Nov 2021 - 11:01:02.529 [main] INFO  io.javalin.Javalin - Javalin started in 817ms \o/
+28 Nov 2021 - 11:01:37.108 [qtp808228639-19] WARN  io.javalin.Javalin - Uncaught exception
+com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.revature.dto.LoginDTO` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: (String)"[object Object]"; line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1741)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1515)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1462)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(BeanDeserializer.java:638)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:210)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:186)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4675)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3630)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3598)
+	at io.javalin.plugin.json.JavalinJackson.fromJsonString(JavalinJackson.kt:37)
+	at io.javalin.http.Context.bodyAsClass(Context.kt:114)
+	at com.revature.controller.AuthenticationController.lambda$0(AuthenticationController.java:45)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-5(JavalinServlet.kt:113)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:44)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service$tryWithExceptionMapper(JavalinServlet.kt:129)
+	at io.javalin.http.JavalinServlet.service$tryBeforeAndEndpointHandlers(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+28 Nov 2021 - 11:13:18.541 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2403ms to org.eclipse.jetty.util.log.Slf4jLog
+28 Nov 2021 - 11:13:18.754 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+28 Nov 2021 - 11:13:19.150 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+28 Nov 2021 - 11:13:19.157 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+28 Nov 2021 - 11:13:19.188 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+28 Nov 2021 - 11:13:19.925 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+28 Nov 2021 - 11:13:19.926 [main] INFO  io.javalin.Javalin - Javalin started in 775ms \o/
+28 Nov 2021 - 12:00:45.347 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2578ms to org.eclipse.jetty.util.log.Slf4jLog
+28 Nov 2021 - 12:00:45.561 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+28 Nov 2021 - 12:00:45.913 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+28 Nov 2021 - 12:00:45.917 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+28 Nov 2021 - 12:00:45.960 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+28 Nov 2021 - 12:00:46.746 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+28 Nov 2021 - 12:00:46.746 [main] INFO  io.javalin.Javalin - Javalin started in 832ms \o/
+28 Nov 2021 - 14:34:33.254 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2768ms to org.eclipse.jetty.util.log.Slf4jLog
+28 Nov 2021 - 14:34:33.460 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+28 Nov 2021 - 14:34:33.767 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+28 Nov 2021 - 14:34:33.779 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+28 Nov 2021 - 14:34:33.865 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+28 Nov 2021 - 14:34:34.592 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+28 Nov 2021 - 14:34:34.593 [main] INFO  io.javalin.Javalin - Javalin started in 826ms \o/
+28 Nov 2021 - 16:45:12.054 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @5993ms to org.eclipse.jetty.util.log.Slf4jLog
+28 Nov 2021 - 16:45:12.279 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+28 Nov 2021 - 16:45:12.646 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+28 Nov 2021 - 16:45:12.649 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+28 Nov 2021 - 16:45:12.685 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+28 Nov 2021 - 16:45:13.375 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+28 Nov 2021 - 16:45:13.376 [main] INFO  io.javalin.Javalin - Javalin started in 730ms \o/
+28 Nov 2021 - 16:45:14.732 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1849ms to org.eclipse.jetty.util.log.Slf4jLog
+28 Nov 2021 - 16:45:14.794 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+28 Nov 2021 - 16:45:14.909 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+28 Nov 2021 - 16:45:14.910 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+28 Nov 2021 - 16:45:14.935 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+28 Nov 2021 - 16:45:15.204 [main] ERROR io.javalin.Javalin - Failed to start Javalin
+28 Nov 2021 - 16:45:15.205 [main] INFO  io.javalin.Javalin - Stopping Javalin ...
+28 Nov 2021 - 16:45:15.219 [main] INFO  io.javalin.Javalin - Javalin has stopped
+28 Nov 2021 - 17:05:45.726 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1947ms to org.eclipse.jetty.util.log.Slf4jLog
+28 Nov 2021 - 17:05:45.961 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+28 Nov 2021 - 17:05:46.457 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+28 Nov 2021 - 17:05:46.461 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+28 Nov 2021 - 17:05:46.500 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+28 Nov 2021 - 17:05:47.301 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+28 Nov 2021 - 17:05:47.302 [main] INFO  io.javalin.Javalin - Javalin started in 844ms \o/
+28 Nov 2021 - 22:20:03.028 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2061ms to org.eclipse.jetty.util.log.Slf4jLog
+28 Nov 2021 - 22:20:03.271 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+28 Nov 2021 - 22:20:03.597 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+28 Nov 2021 - 22:20:03.601 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+28 Nov 2021 - 22:20:03.645 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+28 Nov 2021 - 22:20:04.413 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+28 Nov 2021 - 22:20:04.414 [main] INFO  io.javalin.Javalin - Javalin started in 816ms \o/
+28 Nov 2021 - 22:20:12.778 [qtp808228639-17] WARN  io.javalin.Javalin - Uncaught exception
+org.postgresql.util.PSQLException: The column name id was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2865)
+	at org.postgresql.jdbc.PgResultSet.getInt(PgResultSet.java:2743)
+	at com.revature.dao.UserDAO.getUserByUsernameAndPassword(UserDAO.java:23)
+	at com.revature.service.UserService.getUserByUsernameAndPassword(UserService.java:19)
+	at com.revature.controller.AuthenticationController.lambda$0(AuthenticationController.java:50)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-5(JavalinServlet.kt:113)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:44)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service$tryWithExceptionMapper(JavalinServlet.kt:129)
+	at io.javalin.http.JavalinServlet.service$tryBeforeAndEndpointHandlers(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+28 Nov 2021 - 22:22:48.414 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1198ms to org.eclipse.jetty.util.log.Slf4jLog
+28 Nov 2021 - 22:22:48.595 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+28 Nov 2021 - 22:22:48.947 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+28 Nov 2021 - 22:22:48.953 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+28 Nov 2021 - 22:22:48.990 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+28 Nov 2021 - 22:22:49.602 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+28 Nov 2021 - 22:22:49.602 [main] INFO  io.javalin.Javalin - Javalin started in 655ms \o/
+30 Nov 2021 - 13:12:00.458 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2256ms to org.eclipse.jetty.util.log.Slf4jLog
+30 Nov 2021 - 13:12:00.653 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+30 Nov 2021 - 13:12:05.931 [Thread-0] INFO  io.javalin.Javalin - It looks like you created a Javalin instance, but you never started it.
+30 Nov 2021 - 13:12:05.932 [Thread-0] INFO  io.javalin.Javalin - Try: Javalin app = Javalin.create().start();
+30 Nov 2021 - 13:12:05.932 [Thread-0] INFO  io.javalin.Javalin - For more help, visit https://javalin.io/documentation#starting-and-stopping
+30 Nov 2021 - 13:12:17.531 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1590ms to org.eclipse.jetty.util.log.Slf4jLog
+30 Nov 2021 - 13:12:17.708 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+30 Nov 2021 - 13:12:17.942 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+30 Nov 2021 - 13:12:17.945 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+30 Nov 2021 - 13:12:17.996 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+30 Nov 2021 - 13:12:18.840 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+30 Nov 2021 - 13:12:18.843 [main] INFO  io.javalin.Javalin - Javalin started in 901ms \o/
+30 Nov 2021 - 15:37:18.153 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @3817ms to org.eclipse.jetty.util.log.Slf4jLog
+30 Nov 2021 - 15:37:18.406 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+30 Nov 2021 - 15:37:18.844 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+30 Nov 2021 - 15:37:18.851 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+30 Nov 2021 - 15:37:18.913 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+30 Nov 2021 - 15:37:20.397 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+30 Nov 2021 - 15:37:20.398 [main] INFO  io.javalin.Javalin - Javalin started in 1553ms \o/
+30 Nov 2021 - 15:38:20.792 [qtp1640296160-22] WARN  io.javalin.Javalin - Uncaught exception
+org.postgresql.util.PSQLException: The column name reimb_receipt was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2865)
+	at org.postgresql.jdbc.PgResultSet.getBlob(PgResultSet.java:438)
+	at com.revature.dao.ReimbursementDAO.getReimbursementByEmployeeId(ReimbursementDAO.java:76)
+	at com.revature.service.ReimbursementService.getAllReimbursements(ReimbursementService.java:25)
+	at com.revature.controller.ReimbursementController.lambda$0(ReimbursementController.java:28)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-5(JavalinServlet.kt:113)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:44)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service$tryWithExceptionMapper(JavalinServlet.kt:129)
+	at io.javalin.http.JavalinServlet.service$tryBeforeAndEndpointHandlers(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+01 Dec 2021 - 12:53:07.835 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1521ms to org.eclipse.jetty.util.log.Slf4jLog
+01 Dec 2021 - 12:53:08.039 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+01 Dec 2021 - 12:53:08.504 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+01 Dec 2021 - 12:53:08.511 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+01 Dec 2021 - 12:53:08.568 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+01 Dec 2021 - 12:53:09.523 [main] ERROR io.javalin.Javalin - Failed to start Javalin
+01 Dec 2021 - 12:53:09.524 [main] INFO  io.javalin.Javalin - Stopping Javalin ...
+01 Dec 2021 - 12:53:09.552 [main] INFO  io.javalin.Javalin - Javalin has stopped
+01 Dec 2021 - 12:53:17.550 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1531ms to org.eclipse.jetty.util.log.Slf4jLog
+01 Dec 2021 - 12:53:17.625 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+01 Dec 2021 - 12:53:17.776 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+01 Dec 2021 - 12:53:17.778 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+01 Dec 2021 - 12:53:17.815 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+01 Dec 2021 - 12:53:18.223 [main] ERROR io.javalin.Javalin - Failed to start Javalin
+01 Dec 2021 - 12:53:18.223 [main] INFO  io.javalin.Javalin - Stopping Javalin ...
+01 Dec 2021 - 12:53:18.246 [main] INFO  io.javalin.Javalin - Javalin has stopped
+01 Dec 2021 - 12:53:37.326 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1308ms to org.eclipse.jetty.util.log.Slf4jLog
+01 Dec 2021 - 12:53:37.440 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+01 Dec 2021 - 12:53:37.703 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+01 Dec 2021 - 12:53:37.705 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+01 Dec 2021 - 12:53:37.748 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+01 Dec 2021 - 12:54:22.505 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @983ms to org.eclipse.jetty.util.log.Slf4jLog
+01 Dec 2021 - 12:54:22.572 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+01 Dec 2021 - 12:54:22.908 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+01 Dec 2021 - 12:54:22.909 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+01 Dec 2021 - 12:54:22.963 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+01 Dec 2021 - 12:54:23.531 [main] ERROR io.javalin.Javalin - Failed to start Javalin
+01 Dec 2021 - 12:54:23.532 [main] INFO  io.javalin.Javalin - Stopping Javalin ...
+01 Dec 2021 - 12:54:23.572 [main] INFO  io.javalin.Javalin - Javalin has stopped
+01 Dec 2021 - 12:58:46.199 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1807ms to org.eclipse.jetty.util.log.Slf4jLog
+01 Dec 2021 - 12:58:46.421 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+01 Dec 2021 - 12:58:46.702 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+01 Dec 2021 - 12:58:46.706 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+01 Dec 2021 - 12:58:46.733 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+01 Dec 2021 - 12:58:47.422 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+01 Dec 2021 - 12:58:47.422 [main] INFO  io.javalin.Javalin - Javalin started in 719ms \o/
+01 Dec 2021 - 13:15:00.049 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1602ms to org.eclipse.jetty.util.log.Slf4jLog
+01 Dec 2021 - 13:15:00.284 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+01 Dec 2021 - 13:15:00.638 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+01 Dec 2021 - 13:15:00.642 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+01 Dec 2021 - 13:15:00.687 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+01 Dec 2021 - 13:15:01.372 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+01 Dec 2021 - 13:15:01.373 [main] INFO  io.javalin.Javalin - Javalin started in 734ms \o/
+01 Dec 2021 - 13:29:07.240 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1807ms to org.eclipse.jetty.util.log.Slf4jLog
+01 Dec 2021 - 13:29:07.420 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+01 Dec 2021 - 13:29:07.703 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+01 Dec 2021 - 13:29:07.707 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+01 Dec 2021 - 13:29:07.743 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+01 Dec 2021 - 13:29:08.362 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+01 Dec 2021 - 13:29:08.363 [main] INFO  io.javalin.Javalin - Javalin started in 659ms \o/
+01 Dec 2021 - 13:43:15.623 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1230ms to org.eclipse.jetty.util.log.Slf4jLog
+01 Dec 2021 - 13:43:15.787 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+01 Dec 2021 - 13:43:21.022 [Thread-0] INFO  io.javalin.Javalin - It looks like you created a Javalin instance, but you never started it.
+01 Dec 2021 - 13:43:21.023 [Thread-0] INFO  io.javalin.Javalin - Try: Javalin app = Javalin.create().start();
+01 Dec 2021 - 13:43:21.024 [Thread-0] INFO  io.javalin.Javalin - For more help, visit https://javalin.io/documentation#starting-and-stopping
+01 Dec 2021 - 13:43:35.028 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1646ms to org.eclipse.jetty.util.log.Slf4jLog
+01 Dec 2021 - 13:43:35.087 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+01 Dec 2021 - 13:43:35.263 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+01 Dec 2021 - 13:43:35.267 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+01 Dec 2021 - 13:43:35.303 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021).
+01 Dec 2021 - 13:43:35.871 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+01 Dec 2021 - 13:43:35.872 [main] INFO  io.javalin.Javalin - Javalin started in 608ms \o/
+01 Dec 2021 - 16:43:00.392 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1894ms to org.eclipse.jetty.util.log.Slf4jLog
+01 Dec 2021 - 16:43:00.629 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/Project%20One/project-one/target/classes/static/'
+01 Dec 2021 - 16:43:05.951 [Thread-0] INFO  io.javalin.Javalin - It looks like you created a Javalin instance, but you never started it.
+01 Dec 2021 - 16:43:05.952 [Thread-0] INFO  io.javalin.Javalin - Try: Javalin app = Javalin.create().start();
+01 Dec 2021 - 16:43:05.953 [Thread-0] INFO  io.javalin.Javalin - For more help, visit https://javalin.io/documentation#starting-and-stopping

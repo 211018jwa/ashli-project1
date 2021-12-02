@@ -1,0 +1,6 @@
+package com.revature.controller;
+
+public class ReimbursementService {
+
+	public List<Reimbursement> getReimbursements(User currentLoggedIn);
+}

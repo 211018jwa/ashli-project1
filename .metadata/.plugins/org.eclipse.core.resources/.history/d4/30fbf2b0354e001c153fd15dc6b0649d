@@ -1,0 +1,41 @@
+package com.revature.app;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import com.revature.controller.AuthenticationController;
+import com.revature.controller.Controller;
+import com.revature.controller.EmployeeController;
+import com.revature.util.JDBCUtility;
+
+import io.javalin.Javalin;
+import io.javalin.http.staticfiles.Location;
+
+public class Application {
+
+	public static void main(String[] args) {
+//		Javalin app = Javalin.create((config) -> {
+//			config.enableCorsForAllOrigins();
+//			config.addStaticFiles("static", Location.CLASSPATH);
+//			
+//		});
+//		app.start(8080);
+//		
+//		mapControllers(app, new AuthenticationController(), new EmployeeController());	
+//		}
+	try {
+			Connection connection = JDBCUtility.getConnection();
+			System.out.println(connection);
+	} catch (SQLException e) {
+		e.printStackTrace();}
+	}
+	//use var-args for controllers
+	//this method calls all mapEndpoints
+	public static void mapControllers( Javalin app, Controller...controllers) {
+		for(int i = 0; i < controllers.length; i++) {
+			controllers[i].mapEndpoints(app);
+		}
+	}
+		
+
+}

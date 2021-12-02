@@ -1,0 +1,34 @@
+package com.revature.controller;
+
+import com.revature.model.User;
+import com.revature.service.AuthorizationService;
+
+import io.javalin.Javalin;
+import io.javalin.http.Handler;
+
+public class ReimbursementController implements Controller {
+
+	private AuthorizationService authorizationService; 
+	private ReimbursementService reimburementService;
+	
+	public ReimbursementController() {
+		this.authorizationService = new AuthorizationService(); //instantiate
+		this.reimburementService = new ReimbursementService();
+	}
+	
+	private Handler getReimbursements = (ctx) -> {
+		//must be FM or employee to access this endpoint
+		User currentLoggedIn = (User) ctx.req.getSession().getAttribute("currentuser");
+		this.authorizationService.authroizeEmployeeAndFinanceManager(currentLoggedIn);
+		
+		this.reimbursementService.getReimbursements(currentLoggedIn);
+	};
+	
+	@Override
+	public void mapEndpoints(Javalin app) {
+		// TODO Auto-generated method stub
+		
+		app.get(/reimbursements, getReimbursements);
+	}
+
+} 
