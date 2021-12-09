@@ -5,6 +5,8 @@ import java.security.InvalidParameterException;
 import javax.security.auth.login.FailedLoginException;
 
 import com.revature.dto.MessageDTO;
+import com.revature.exception.ReceiptNotFoundException;
+import com.revature.exception.ReimbursementAlreadyResolvedException;
 import com.revature.exception.ReimbursementNotFoundException;
 //import com.revature.exception.UnauthorizedException;
 import com.revature.exception.UnauthorizedException;
@@ -29,9 +31,18 @@ public class ExceptionMap {
 			ctx.json(new MessageDTO(e.getMessage()));
 		});
 		app.exception(InvalidParameterException.class, (e, ctx) -> {
-			ctx.json(e);
+			ctx.json(e); //prints out print stack error
 			ctx.status(400);
 		});
+		app.exception(ReimbursementAlreadyResolvedException.class, (e, ctx) -> {
+			ctx.json(new MessageDTO(e.getMessage())); 
+			ctx.status(400);
+		});
+		app.exception(ReceiptNotFoundException.class, (e, ctx) -> {
+			ctx.json(new MessageDTO(e.getMessage())); 
+			ctx.status(404);
+		});
+		
 	}
 	
 }

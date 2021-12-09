@@ -78,11 +78,25 @@ public class AuthenticationController implements Controller {
 		}
 		
 	};
+	
+	private Handler checkIfLoggedIn = (ctx) -> {
+		HttpSession session = ctx.req.getSession();
+		
+		// Check if session.getAttribute("currentuser"); is null or not
+		if (!(session.getAttribute("currentuser") == null)) {
+			ctx.json(session.getAttribute("currentuser"));
+			ctx.status(200);
+		} else {
+			ctx.json(new MessageDTO("User is not logged in"));
+			ctx.status(401);
+		}
+	};
 
 	@Override
 	public void mapEndpoints(Javalin app) {
 		app.post("/login", login);
 		app.post("/logout", logout);
+		app.get("/checklogin", checkIfLoggedIn);
 	}
 	
 	

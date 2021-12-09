@@ -10,14 +10,19 @@ public class AuthorizationService {
 	// thing
 
 	public void authroizeEmployeeAndFinanceManager(User user) throws UnauthorizedException {
-		if (user == null || !(user.getUserRole().equals("Employee") || user.getUserRole().equals("Finance Manager"))) { //short-circuiting
+		if (user == null || !(user.getUser_role().equals("Employee") || user.getUser_role().equals("Finance Manager"))) { //short-circuiting
 			throw new UnauthorizedException("You must be an employee or finance manager to access this resource");
 		}
 	}
 
 	public void authorizeFinanceManager(User user) throws UnauthorizedException {
-			if(user == null || !(user.getUserRole().equals("Finance Manager"))) {
+			if(user == null || !(user.getUser_role().equals("Finance Manager"))) {
 				throw new UnauthorizedException("You must be a finance manager to access this resource");
 			}	
 	}
+	public void authorizeEmployee(User user) throws UnauthorizedException {
+		if(user == null || !(user.getUser_role().equals("Employee"))) {
+			throw new UnauthorizedException("You must be an employee to access this resource");
+		}	
+}
 }

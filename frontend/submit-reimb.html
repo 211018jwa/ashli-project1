@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="submit-reimb.css">
+    <style>
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: linear-gradient(#1845ad, #23a2f6);
+            color: white;
+            font-size: 30px;
+            margin:0px;
+            padding: 0px;
+        }
+        
+        body {
+            background: lightgray;
+        }
+        
+        h1 {
+            color: black;
+            font-family: Apple Chancery, cursive;
+            font-size: 300%;
+        }
+        
+        h2 {
+            color: black;
+            font-family: Apple Chancery, cursive;
+            font-size: 200%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header" id="reimbursement-submit-form">
+        <h2>Submit New Reimbursement</h2>
+    </div>
+    <div class="container">
+        <div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="ramt">Reimbursement Amount</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="ramt" name="reimbursementamount" placeholder="Enter amount..">
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="rtype">Reimbursement Type</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="rtype" name="reimbursementtype" placeholder="Enter type..">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="rdes">Reimbursement Description</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="rdes" name="reimbursementdescription" placeholder="Enter description..">
+                        <!--gonna set max number of words later-->
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="rfile">Reimbursement Receipt</label>
+                        </div>
+                        <div class="col-75">
+                            <label for="Reimbursement-file">Reimbursement Upload (JPEG, or PNG)</label>
+                            <input type="file" id="rfile"/>
+                        </div>
+                        <button id="sub-reimb-btn">Submit Reimbursement</button>
+                    </div>
+                </div>
+            </div>
+</body>
+<script src="submit-reimb.js"></script>
+
+</html>

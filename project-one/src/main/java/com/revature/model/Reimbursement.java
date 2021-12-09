@@ -1,76 +1,80 @@
 package com.revature.model;
 
-import java.sql.Blob;
-import java.sql.Timestamp;
+
+import java.io.InputStream;
 import java.util.Objects;
 
 
 public class Reimbursement {
 
 	
-	private int reimbId;
-	private double reimbAmount;
-	private String reimbSubmitted;
-	private String reimbResolved;
+	private int reimb_id;
+	private double reimb_amount;
+	private String reimb_submitted;
+	private String reimb_resolved;
 	private String status;
 	private String type;
 	private String description;
-	private Blob reimbReceipt;
-	private int reimbAuthor;
-	private int reimbResolver;
+	private int reimb_author;
+	private int reimb_resolver;
 
 
 public Reimbursement () {
 	
 }
 
-public Reimbursement(int reimbId, double reimbAmount, String reimbSubmitted, String reimbResolved, String status,
-		String type, String description, Blob reimbReceipt, int reimbAuthor, int reimbResolver) {
+public Reimbursement(int reimb_id, double reimb_amount, String reimb_submitted, String reimb_resolved, String status,
+		String type, String description, int reimb_author, int reimb_resolver) {
 	super();
-	this.reimbId = reimbId;
-	this.reimbAmount = reimbAmount;
-	this.reimbSubmitted = reimbSubmitted;
-	this.reimbResolved = reimbResolved;
+	this.reimb_id = reimb_id;
+	this.reimb_amount = reimb_amount;
+	this.reimb_submitted = reimb_submitted;
+	this.reimb_resolved = reimb_resolved;
 	this.status = status;
 	this.type = type;
 	this.description = description;
-	this.reimbReceipt = reimbReceipt;
-	this.reimbAuthor = reimbAuthor;
-	this.reimbResolver = reimbResolver;
+	this.reimb_author = reimb_author;
+	this.reimb_resolver = reimb_resolver;
+	
 	
 }
-
-
-public int getReimbId() {
-	return reimbId;
+public Reimbursement (int reimb_resolver, int reimb_id, String status, String reimb_resolved) {
+	this.reimb_resolver = reimb_resolver;
+	this.reimb_id = reimb_id;
+	this.status = status;
+	this.reimb_resolved = reimb_resolved;
+	
+}
+public int getReimb_id() {
+	return reimb_id;
 }
 
-public void setReimbId(int reimbId) {
-	this.reimbId = reimbId;
+public void setReimb_id(int reimb_id) {
+	this.reimb_id = reimb_id;
 }
 
-public double getReimbAmount() {
-	return reimbAmount;
+public double getReimb_amount() {
+	return reimb_amount;
 }
 
-public void setReimbAmount(double reimbAmount) {
-	this.reimbAmount = reimbAmount;
+public void setReimb_amount(double reimb_amount) {
+	this.reimb_amount = reimb_amount;
 }
 
-public String getReimbSubmitted() {
-	return reimbSubmitted;
+public String getReimb_submitted() {
+	return reimb_submitted;
 }
 
-public void setReimbSubmitted(String reimbSubmitted) {
-	this.reimbSubmitted = reimbSubmitted;
+public void setReimb_submitted(String reimb_submitted) {
+	this.reimb_submitted = reimb_submitted;
 }
 
-public String getReimbResolved() {
-	return reimbResolved;
+public String getReimb_resolved() {
+	return reimb_resolved;
 }
 
-public void setReimbResolved(String reimbResolved) {
-	this.reimbResolved = reimbResolved;
+public void setReimb_resolved(String reimb_resolved) {
+	this.reimb_resolved = reimb_resolved;
 }
 
 public String getStatus() {
@@ -97,35 +101,27 @@ public void setDescription(String description) {
 	this.description = description;
 }
 
-public Blob getReimbReceipt() {
-	return reimbReceipt;
+public int getReimb_author() {
+	return reimb_author;
 }
 
-public void setReimbReceipt(Blob reimbReceipt) {
-	this.reimbReceipt = reimbReceipt;
+public void setReimb_author(int reimb_author) {
+	this.reimb_author = reimb_author;
 }
 
-public int getReimbAuthor() {
-	return reimbAuthor;
+public int getReimb_resolver() {
+	return reimb_resolver;
 }
 
-public void setReimbAuthor(int reimbAuthor) {
-	this.reimbAuthor = reimbAuthor;
-}
-
-public int getReimbResolver() {
-	return reimbResolver;
-}
-
-public void setReimbResolver(int reimbResolver) {
-	this.reimbResolver = reimbResolver;
+public void setReimb_resolver(int reimb_resolver) {
+	this.reimb_resolver = reimb_resolver;
 }
 
 
 @Override
 public int hashCode() {
-	return Objects.hash(description, reimbAmount, reimbAuthor, reimbId, reimbReceipt, reimbResolved, reimbResolver,
-			reimbSubmitted, status, type);
+	return Objects.hash(description, reimb_amount, reimb_author, reimb_id, reimb_resolved, reimb_resolver,
+			reimb_submitted, status, type);
 }
 
 @Override
@@ -138,19 +134,40 @@ public boolean equals(Object obj) {
 		return false;
 	Reimbursement other = (Reimbursement) obj;
 	return Objects.equals(description, other.description)
-			&& Double.doubleToLongBits(reimbAmount) == Double.doubleToLongBits(other.reimbAmount)
-			&& reimbAuthor == other.reimbAuthor && reimbId == other.reimbId
-			&& Objects.equals(reimbReceipt, other.reimbReceipt) && Objects.equals(reimbResolved, other.reimbResolved)
-			&& reimbResolver == other.reimbResolver && Objects.equals(reimbSubmitted, other.reimbSubmitted)
-			&& Objects.equals(status, other.status) && Objects.equals(type, other.type);
+			&& Double.doubleToLongBits(reimb_amount) == Double.doubleToLongBits(other.reimb_amount)
+			&& reimb_author == other.reimb_author && reimb_id == other.reimb_id
+			&& Objects.equals(reimb_resolved, other.reimb_resolved) && reimb_resolver == other.reimb_resolver
+			&& Objects.equals(reimb_submitted, other.reimb_submitted) && Objects.equals(status, other.status)
+			&& Objects.equals(type, other.type);
 }
 
 @Override
 public String toString() {
-	return "Reimbursement [reimbId=" + reimbId + ", reimbAmount=" + reimbAmount + ", reimbSubmitted=" + reimbSubmitted
-			+ ", reimbResolved=" + reimbResolved + ", status=" + status + ", type=" + type + ", description="
-			+ description + ", reimbReceipt=" + reimbReceipt + ", reimbAuthor=" + reimbAuthor + ", reimbResolver="
-			+ reimbResolver + "]";
+	return "Reimbursement [reimb_id=" + reimb_id + ", reimb_amount=" + reimb_amount + ", reimb_submitted="
+			+ reimb_submitted + ", reimb_resolved=" + reimb_resolved + ", status=" + status + ", type=" + type
+			+ ", description=" + description + ", reimb_author=" + reimb_author + ", reimb_resolver=" + reimb_resolver
+			+ "]";
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+

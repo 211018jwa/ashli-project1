@@ -4,43 +4,43 @@ import java.util.Objects;
 
 public class User {
 
-	private int userId;
-	private String firstName;
-	private String lastName;
+	private int user_id;
+	private String first_name;
+	private String last_name;
 	private String email;
 	private String username;
 	private String password;
-	private String userRole;
+	private String user_role;
 	
 	public User() {
 		
 	}
-	public User(int userId, String firstName, String lastName, String email, String username, String password, String userRole) {
-		this.userId = userId;
-		this.firstName = firstName;
-		this.lastName = lastName;
+	public User(int user_id, String first_name, String last_name, String email, String username, String password, String user_role) {
+		this.user_id = user_id;
+		this.first_name = first_name;
+		this.last_name = last_name;
 		this.email = email;
 		this.username = username;
 		this.password = password;
-		this.userRole = userRole;
+		this.user_role = user_role;
 	}
-	public int getUserId() {
-		return userId;
+	public int getUser_id() {
+		return user_id;
 	}
-	public void setUserId(int userId) {
-		this.userId = userId;
+	public void setUser_id(int user_id) {
+		this.user_id = user_id;
 	}
-	public String getFirstName() {
-		return firstName;
+	public String getFirst_name() {
+		return first_name;
 	}
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+	public void setFirst_name(String first_name) {
+		this.first_name = first_name;
 	}
-	public String getLastName() {
-		return lastName;
+	public String getLast_name() {
+		return last_name;
 	}
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+	public void setLast_name(String last_name) {
+		this.last_name = last_name;
 	}
 	public String getEmail() {
 		return email;
@@ -60,15 +60,15 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public String getUserRole() {
-		return userRole;
+	public String getUser_role() {
+		return user_role;
 	}
-	public void setUserRole(String userRole) {
-		this.userRole = userRole;
+	public void setUser_role(String user_role) {
+		this.user_role = user_role;
 	}
 	@Override
 	public int hashCode() {
-		return Objects.hash(email, firstName, lastName, password, userId, userRole, username);
+		return Objects.hash(email, first_name, last_name, password, user_id, user_role, username);
 	}
 	@Override
 	public boolean equals(Object obj) {
@@ -79,15 +79,15 @@ public class User {
 		if (getClass() != obj.getClass())
 			return false;
 		User other = (User) obj;
-		return Objects.equals(email, other.email) && Objects.equals(firstName, other.firstName)
-				&& Objects.equals(lastName, other.lastName) && Objects.equals(password, other.password)
-				&& userId == other.userId && Objects.equals(userRole, other.userRole)
+		return Objects.equals(email, other.email) && Objects.equals(first_name, other.first_name)
+				&& Objects.equals(last_name, other.last_name) && Objects.equals(password, other.password)
+				&& user_id == other.user_id && Objects.equals(user_role, other.user_role)
 				&& Objects.equals(username, other.username);
 	}
 	@Override
 	public String toString() {
-		return "User [userId=" + userId + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
-				+ ", username=" + username + ", password=" + password + ", userRole=" + userRole + "]";
+		return "User [user_id=" + user_id + ", first_name=" + first_name + ", last_name=" + last_name + ", email="
+				+ email + ", username=" + username + ", password=" + password + ", user_role=" + user_role + "]";
 	}
-
+	
 }

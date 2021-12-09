@@ -4,59 +4,59 @@ import java.util.Objects;
 
 public class ResolveReimbursementDTO {
 
-	private String reimbStatus;
-	private int reimbResolver;
-	private String reimbResolved;
-	private int reimbAuthor;
+	private String reimb_status;
+	private int reimb_resolver;
+	private String reimb_resolved;
+	private int reimb_author;
 	
 	public ResolveReimbursementDTO() {
 		super();
 	}
 
-	public ResolveReimbursementDTO(String reimbStatus, int reimbResolver, String reimbResolved, int reimbAuthor) {
+	public ResolveReimbursementDTO(String reimb_status, int reimb_resolver, String reimb_resolved, int reimb_author) {
 		super();
-		this.reimbStatus = reimbStatus;
-		this.reimbResolver = reimbResolver;
-		this.reimbResolved = reimbResolved;
-		this.reimbAuthor = reimbAuthor;
+		this.reimb_status = reimb_status;
+		this.reimb_resolver = reimb_resolver;
+		this.reimb_resolved = reimb_resolved;
+		this.reimb_author = reimb_author;
 		
 	}
 
-	public String getReimbStatus() {
-		return reimbStatus;
+	public String getReimb_status() {
+		return reimb_status;
 	}
 
-	public void setReimbStatus(String reimbStatus) {
-		this.reimbStatus = reimbStatus;
+	public void setReimb_status(String reimb_status) {
+		this.reimb_status = reimb_status;
 	}
 
-	public int getReimbResolver() {
-		return reimbResolver;
+	public int getReimb_resolver() {
+		return reimb_resolver;
 	}
 
-	public void setReimbResolver(int reimbResolver) {
-		this.reimbResolver = reimbResolver;
+	public void setReimb_resolver(int reimb_resolver) {
+		this.reimb_resolver = reimb_resolver;
 	}
 
-	public String getReimbResolved() {
-		return reimbResolved;
+	public String getReimb_resolved() {
+		return reimb_resolved;
 	}
 
-	public void setReimbResolved(String reimbResolved) {
-		this.reimbResolved = reimbResolved;
+	public void setReimb_resolved(String reimb_resolved) {
+		this.reimb_resolved = reimb_resolved;
 	}
 
-	public int getReimbAuthor() {
-		return reimbAuthor;
+	public int getReimb_author() {
+		return reimb_author;
 	}
 
-	public void setReimbAuthor(int reimbAuthor) {
-		this.reimbAuthor = reimbAuthor;
+	public void setReimb_author(int reimb_author) {
+		this.reimb_author = reimb_author;
 	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(reimbAuthor, reimbResolved, reimbResolver, reimbStatus);
+		return Objects.hash(reimb_author, reimb_resolved, reimb_resolver, reimb_status);
 	}
 
 	@Override
@@ -68,14 +68,15 @@ public class ResolveReimbursementDTO {
 		if (getClass() != obj.getClass())
 			return false;
 		ResolveReimbursementDTO other = (ResolveReimbursementDTO) obj;
-		return reimbAuthor == other.reimbAuthor && Objects.equals(reimbResolved, other.reimbResolved)
-				&& reimbResolver == other.reimbResolver && Objects.equals(reimbStatus, other.reimbStatus);
+		return reimb_author == other.reimb_author && Objects.equals(reimb_resolved, other.reimb_resolved)
+				&& reimb_resolver == other.reimb_resolver && Objects.equals(reimb_status, other.reimb_status);
 	}
 
 	@Override
 	public String toString() {
-		return "ResolveReimbursementDTO [reimbStatus=" + reimbStatus + ", reimbResolver=" + reimbResolver
-				+ ", reimbResolved=" + reimbResolved + ", reimbAuthor=" + reimbAuthor + "]";
+		return "ResolveReimbursementDTO [reimb_status=" + reimb_status + ", reimb_resolver=" + reimb_resolver
+				+ ", reimb_resolved=" + reimb_resolved + ", reimb_author=" + reimb_author + "]";
 	}
 
+	
 }

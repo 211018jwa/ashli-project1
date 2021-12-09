@@ -2,4 +2,10 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.revature.dto.ChangeReimbursementStatusDTO"/>
     <fullyQualifiedTypeName name="com.revature.exception.ReimbursementNotFoundException"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="com.revature.model.User"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
+    <fullyQualifiedTypeName name="com.revature.exception.UnauthorizedException"/>
+    <fullyQualifiedTypeName name="io.cucumber.junit.platform.engine.Cucumber"/>
 </qualifiedTypeNameHistroy>

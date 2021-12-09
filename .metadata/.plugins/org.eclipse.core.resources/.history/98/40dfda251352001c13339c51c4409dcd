@@ -1,6 +1,0 @@
-package com.revature.service;
-
-public class ReimbursementService {
-
-	public List<Reimbursement> getReimbursements(User currentLoggedIn);
-}

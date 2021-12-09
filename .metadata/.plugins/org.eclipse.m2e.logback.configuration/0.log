@@ -527,3 +527,1171 @@
 2021-12-02 12:34:45,831 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2021-12-02 12:34:45,833 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-12-02 12:34:45,835 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 12:50:53,769 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:50:53,842 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ashlioneal/Desktop/Project One/project-one/src/main/resources
+2021-12-02 12:50:53,848 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:50:53,859 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ashlioneal/Desktop/Project One/project-one/src/test/resources
+2021-12-02 12:50:54,113 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:50:54,114 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ashlioneal/Desktop/Project One/project-one/src/main/resources
+2021-12-02 12:50:54,118 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:50:54,125 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ashlioneal/Desktop/Project One/project-one/src/test/resources
+2021-12-02 12:50:55,084 [Worker-15: Building] ERROR o.e.m.c.u.i.m.MarkerLocationService - null
+org.eclipse.jface.text.BadLocationException: null
+	at org.eclipse.jface.text.ListLineTracker.getLineOffset(ListLineTracker.java:197)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineOffset(AbstractLineTracker.java:161)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.getLineOffset(BasicStructuredDocument.java:1497)
+	at org.eclipse.m2e.core.ui.internal.markers.MarkerLocationService.findLocationForMarker(MarkerLocationService.java:116)
+	at org.eclipse.m2e.core.internal.markers.MarkerUtils.decorateMarker(MarkerUtils.java:50)
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.addErrorMarker(MavenMarkerManager.java:333)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.processBuildResults(MavenBuilderImpl.java:316)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:175)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:169)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:105)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:198)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:160)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-12-02 12:50:55,636 [Worker-7: Building] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to remove com/revature/project-one/0.0.1-SNAPSHOT/project-one-0.0.1-SNAPSHOT.pom
+java.nio.file.NoSuchFileException: /Users/ashlioneal/Desktop/Project One/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/write.lock
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at org.apache.lucene.store.NativeFSLockFactory$NativeFSLock.ensureValid(NativeFSLockFactory.java:177)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.createOutput(LockValidatingDirectoryWrapper.java:43)
+	at org.apache.lucene.store.TrackingDirectoryWrapper.createOutput(TrackingDirectoryWrapper.java:43)
+	at org.apache.lucene.codecs.compressing.CompressingStoredFieldsWriter.<init>(CompressingStoredFieldsWriter.java:108)
+	at org.apache.lucene.codecs.compressing.CompressingStoredFieldsFormat.fieldsWriter(CompressingStoredFieldsFormat.java:128)
+	at org.apache.lucene.codecs.lucene50.Lucene50StoredFieldsFormat.fieldsWriter(Lucene50StoredFieldsFormat.java:183)
+	at org.apache.lucene.index.DefaultIndexingChain.initStoredFieldsWriter(DefaultIndexingChain.java:81)
+	at org.apache.lucene.index.DefaultIndexingChain.startStoredFields(DefaultIndexingChain.java:279)
+	at org.apache.lucene.index.DefaultIndexingChain.processDocument(DefaultIndexingChain.java:316)
+	at org.apache.lucene.index.DocumentsWriterPerThread.updateDocument(DocumentsWriterPerThread.java:234)
+	at org.apache.lucene.index.DocumentsWriter.updateDocument(DocumentsWriter.java:450)
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1477)
+	at org.apache.lucene.index.IndexWriter.addDocument(IndexWriter.java:1256)
+	at org.apache.maven.index.DefaultIndexerEngine.remove(DefaultIndexerEngine.java:188)
+	at org.apache.maven.index.DefaultIndexer.deleteArtifactsFromIndex(DefaultIndexer.java:143)
+	at org.apache.maven.index.DefaultNexusIndexer.deleteArtifactFromIndex(DefaultNexusIndexer.java:362)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.removeDocument(NexusIndexManager.java:644)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.mavenProjectChanged(NexusIndexManager.java:776)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:818)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:314)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:198)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:160)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-12-02 12:50:55,672 [Worker-7: Building] ERROR o.e.m.jdt.internal.BuildPathManager - Can't save classpath container state for project-one
+java.io.FileNotFoundException: /Users/ashlioneal/Desktop/Project One/.metadata/.plugins/org.eclipse.m2e.jdt/project-one.container (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.saveContainerState(BuildPathManager.java:221)
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.updateClasspath(BuildPathManager.java:212)
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.mavenProjectChanged(BuildPathManager.java:196)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:818)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:314)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:198)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:160)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-12-02 12:50:55,765 [Worker-7: Building] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Could not update launch configuration
+org.eclipse.core.runtime.CoreException: File not found: /Users/ashlioneal/Desktop/Project One/.metadata/.plugins/org.eclipse.debug.core.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.mkdir(LocalFile.java:326)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:309)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:818)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:314)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:198)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:160)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.NoSuchFileException: /Users/ashlioneal/Desktop/Project One/.metadata/.plugins/org.eclipse.debug.core/.launches
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.createDirectory(UnixFileSystemProvider.java:398)
+	at java.base/java.nio.file.Files.createDirectory(Files.java:700)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.mkdir(LocalFile.java:307)
+	... 29 common frames omitted
+2021-12-02 12:52:27,822 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-02 12:52:35,414 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:52:35,442 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 12:52:35,454 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:52:35,456 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 12:52:38,335 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:52:38,337 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-02 12:52:38,370 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:52:38,371 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 12:52:40,659 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:52:40,673 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-02 12:52:40,683 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:52:40,688 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 12:53:37,203 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:53:37,225 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 12:53:37,230 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:53:37,233 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 12:54:47,394 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:54:47,484 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-02 12:54:47,493 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:54:47,495 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 12:54:59,338 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:54:59,340 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-02 12:54:59,355 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:54:59,356 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 12:55:22,647 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:55:22,661 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-02 12:55:22,673 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 12:55:22,674 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 13:10:24,524 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 13:10:24,550 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-02 13:10:24,557 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 13:10:24,574 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 13:13:03,674 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 13:13:03,695 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-02 13:13:03,698 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 13:13:03,699 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 13:17:38,352 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 13:17:38,375 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-02 13:17:38,377 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 13:17:38,378 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 13:36:30,746 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 13:36:30,762 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-02 13:36:30,764 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 13:36:30,765 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 13:36:37,990 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 13:36:37,992 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-02 13:36:38,030 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 13:36:38,036 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 16:20:11,026 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 16:20:11,040 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-02 16:20:11,042 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 16:20:11,042 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 16:20:20,971 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 16:20:20,978 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-02 16:20:20,980 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 16:20:20,981 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 16:43:23,731 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 16:43:23,771 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-02 16:43:23,800 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 16:43:23,801 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-02 16:43:34,097 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 16:43:34,101 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-02 16:43:34,111 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 16:43:34,114 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 06:50:37,734 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 06:50:37,754 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 06:50:37,757 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 06:50:37,758 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 07:08:16,552 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 07:08:16,564 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 07:08:16,566 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 07:08:16,567 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 07:11:38,094 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 07:11:38,112 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 07:11:38,121 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 07:11:38,122 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 07:12:08,795 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 07:12:08,806 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 07:12:08,808 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 07:12:08,809 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 07:20:57,148 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 07:20:57,163 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 07:20:57,166 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 07:20:57,167 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 07:46:52,205 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 07:46:52,221 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 07:46:52,223 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 07:46:52,224 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 07:55:48,397 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 07:55:48,410 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 07:55:48,412 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 07:55:48,413 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 08:22:14,211 [Worker-87: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 08:22:14,242 [Worker-87: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 08:22:14,245 [Worker-87: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 08:22:14,246 [Worker-87: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 08:25:12,129 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 08:25:12,155 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 08:25:12,162 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 08:25:12,163 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 08:26:15,302 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 08:26:15,340 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 08:26:15,348 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 08:26:15,349 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 08:33:01,793 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 08:33:01,830 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 08:33:01,832 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 08:33:01,833 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 08:36:57,214 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 08:36:57,243 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 08:36:57,246 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 08:36:57,247 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 08:44:54,687 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 08:44:54,842 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 08:44:54,877 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 08:44:54,878 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 09:14:18,916 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 09:14:18,940 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 09:14:18,942 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 09:14:18,944 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 09:21:58,226 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 09:21:58,252 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 09:21:58,254 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 09:21:58,255 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 10:34:43,150 [Worker-110: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 10:34:43,174 [Worker-110: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 10:34:43,184 [Worker-110: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 10:34:43,186 [Worker-110: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 12:15:22,253 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 12:15:22,285 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 12:15:22,289 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 12:15:22,290 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 12:34:04,837 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 12:34:04,902 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 12:34:04,909 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 12:34:04,910 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 12:54:18,064 [Worker-133: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 12:54:18,082 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 12:54:18,085 [Worker-133: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 12:54:18,086 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 12:54:44,997 [Worker-132: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 12:54:45,011 [Worker-132: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 12:54:45,024 [Worker-132: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 12:54:45,025 [Worker-132: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 12:58:38,972 [Worker-137: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 12:58:39,002 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 12:58:39,004 [Worker-137: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 12:58:39,005 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 13:02:37,465 [Worker-128: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 13:02:37,483 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 13:02:37,486 [Worker-128: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 13:02:37,487 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 13:02:49,345 [Worker-128: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 13:02:49,348 [Worker-128: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 13:02:49,354 [Worker-128: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 13:02:49,356 [Worker-128: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 13:03:05,946 [Worker-136: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 13:03:05,950 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 13:03:05,954 [Worker-136: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 13:03:05,956 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 13:13:46,769 [Worker-146: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 13:13:46,795 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 13:13:46,844 [Worker-146: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 13:13:46,845 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 13:14:16,804 [Worker-138: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 13:14:16,837 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 13:14:16,845 [Worker-138: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 13:14:16,846 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 13:19:44,742 [Worker-145: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 13:19:44,759 [Worker-145: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 13:19:44,762 [Worker-145: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 13:19:44,763 [Worker-145: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 13:31:15,555 [Worker-149: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 13:31:15,605 [Worker-149: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 13:31:15,611 [Worker-149: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 13:31:15,617 [Worker-149: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 14:22:02,135 [Worker-156: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 14:22:02,162 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 14:22:02,164 [Worker-156: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 14:22:02,165 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 14:22:35,959 [Worker-161: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 14:22:35,975 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 14:22:35,977 [Worker-161: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 14:22:35,978 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 14:24:21,045 [Worker-162: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 14:24:21,065 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 14:24:21,070 [Worker-162: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 14:24:21,072 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-03 14:30:21,579 [Worker-162: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 14:30:21,618 [Worker-162: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-03 14:30:21,620 [Worker-162: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-03 14:30:21,623 [Worker-162: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-04 13:46:43,506 [Worker-166: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 13:46:43,539 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-04 13:46:43,544 [Worker-166: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 13:46:43,546 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-04 14:03:48,641 [Worker-180: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 14:03:48,662 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-04 14:03:48,666 [Worker-180: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 14:03:48,668 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-04 14:04:24,334 [Worker-177: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 14:04:24,347 [Worker-177: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-04 14:04:24,363 [Worker-177: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 14:04:24,365 [Worker-177: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-04 14:32:19,640 [Worker-191: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 14:32:19,664 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-04 14:32:19,672 [Worker-191: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 14:32:19,674 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-04 14:49:18,538 [Worker-198: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 14:49:18,564 [Worker-198: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-04 14:49:18,574 [Worker-198: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 14:49:18,577 [Worker-198: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-04 14:53:03,414 [Worker-203: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 14:53:03,427 [Worker-203: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-04 14:53:03,430 [Worker-203: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 14:53:03,430 [Worker-203: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-04 14:54:36,480 [Worker-203: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 14:54:36,548 [Worker-203: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-04 14:54:36,551 [Worker-203: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 14:54:36,552 [Worker-203: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-04 15:02:42,788 [Worker-180: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 15:02:42,807 [Worker-180: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-04 15:02:42,826 [Worker-180: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 15:02:42,827 [Worker-180: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-04 15:04:42,789 [Worker-207: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 15:04:42,819 [Worker-207: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-04 15:04:42,823 [Worker-207: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 15:04:42,824 [Worker-207: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-04 15:15:01,173 [Worker-209: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 15:15:01,200 [Worker-209: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-04 15:15:01,217 [Worker-209: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 15:15:01,220 [Worker-209: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-04 15:25:26,726 [Worker-216: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 15:25:26,755 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-04 15:25:26,758 [Worker-216: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 15:25:26,759 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-04 15:27:45,342 [Worker-209: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 15:27:45,367 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-04 15:27:45,374 [Worker-209: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 15:27:45,379 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-04 15:29:28,118 [Worker-216: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 15:29:28,292 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-04 15:29:28,319 [Worker-216: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 15:29:28,321 [Worker-216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-04 16:38:34,080 [Worker-224: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 16:38:34,102 [Worker-224: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-04 16:38:34,107 [Worker-224: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 16:38:34,109 [Worker-224: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-04 23:09:13,517 [Worker-239: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 23:09:13,541 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-04 23:09:13,543 [Worker-239: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-04 23:09:13,544 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 08:26:42,782 [Worker-246: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 08:26:42,826 [Worker-246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 08:26:42,829 [Worker-246: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 08:26:42,830 [Worker-246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 08:31:49,812 [Worker-249: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 08:31:49,860 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 08:31:49,862 [Worker-249: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 08:31:49,863 [Worker-249: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 08:35:43,423 [Worker-249: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 08:35:43,449 [Worker-249: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 08:35:43,461 [Worker-249: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 08:35:43,465 [Worker-249: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 08:37:31,697 [Worker-252: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 08:37:31,735 [Worker-252: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 08:37:31,737 [Worker-252: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 08:37:31,744 [Worker-252: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 08:39:01,240 [Worker-256: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 08:39:01,268 [Worker-256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 08:39:01,271 [Worker-256: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 08:39:01,274 [Worker-256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 09:29:49,085 [Worker-259: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:project-one:0.0.1-SNAPSHOT @ /Users/ashlioneal/Desktop/project-one/project-one/pom.xml.
+2021-12-06 09:29:53,268 [Worker-259: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:29:53,300 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 09:29:53,305 [Worker-259: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:29:53,309 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 09:29:56,261 [Worker-273: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:29:56,283 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 09:29:56,295 [Worker-273: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:29:56,297 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 09:29:57,629 [Worker-269: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/2.1.0/tika-core-2.1.0-sources.jar
+2021-12-06 09:29:58,559 [Worker-269: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tika/tika-core/2.1.0/tika-core-2.1.0-sources.jar
+2021-12-06 09:29:59,242 [Worker-269: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tika:tika-core:2.1.0
+2021-12-06 09:29:59,508 [Worker-269: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0-sources.jar
+2021-12-06 09:30:00,019 [Worker-269: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0-sources.jar
+2021-12-06 09:30:00,695 [Worker-269: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.11.0
+2021-12-06 09:30:01,734 [Worker-270: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:30:01,736 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 09:30:01,738 [Worker-270: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:30:01,739 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 09:40:33,119 [Worker-278: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:40:33,159 [Worker-278: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 09:40:33,165 [Worker-278: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:40:33,167 [Worker-278: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 09:57:02,290 [Worker-284: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:57:02,307 [Worker-284: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 09:57:02,314 [Worker-284: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:57:02,316 [Worker-284: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 09:58:02,520 [Worker-282: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:58:02,546 [Worker-282: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 09:58:02,548 [Worker-282: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:58:02,552 [Worker-282: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 15:21:37,473 [Worker-305: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 15:21:37,515 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 15:21:37,532 [Worker-305: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 15:21:37,592 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 18:29:58,929 [Worker-326: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 18:29:58,960 [Worker-326: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 18:29:58,963 [Worker-326: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 18:29:58,964 [Worker-326: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 19:06:17,466 [Worker-335: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 19:06:17,525 [Worker-335: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 19:06:17,528 [Worker-335: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 19:06:17,529 [Worker-335: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 19:09:34,544 [Worker-338: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 19:09:34,575 [Worker-338: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 19:09:34,580 [Worker-338: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 19:09:34,582 [Worker-338: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 19:19:40,322 [Worker-338: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 19:19:40,337 [Worker-338: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 19:19:40,473 [Worker-338: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 19:19:40,474 [Worker-338: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 19:21:51,593 [Worker-342: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 19:21:51,617 [Worker-342: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 19:21:51,622 [Worker-342: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 19:21:51,624 [Worker-342: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 19:23:14,250 [Worker-347: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 19:23:14,265 [Worker-347: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-06 19:23:14,270 [Worker-347: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 19:23:14,273 [Worker-347: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 01:31:00,496 [Worker-351: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 01:31:00,518 [Worker-351: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 01:31:00,524 [Worker-351: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 01:31:00,526 [Worker-351: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 01:31:08,440 [Worker-354: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 01:31:08,447 [Worker-354: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 01:31:08,450 [Worker-354: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 01:31:08,451 [Worker-354: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 01:31:10,649 [Worker-351: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 01:31:10,658 [Worker-351: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 01:31:10,672 [Worker-351: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 01:31:10,673 [Worker-351: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 01:38:53,398 [Worker-360: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 01:38:53,427 [Worker-360: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 01:38:53,431 [Worker-360: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 01:38:53,432 [Worker-360: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 02:12:44,623 [Worker-364: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:12:44,647 [Worker-364: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 02:12:44,650 [Worker-364: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:12:44,652 [Worker-364: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 02:16:17,226 [Worker-373: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:16:17,257 [Worker-373: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 02:16:17,261 [Worker-373: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:16:17,262 [Worker-373: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 02:18:31,389 [Worker-373: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:18:31,419 [Worker-373: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 02:18:31,433 [Worker-373: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:18:31,437 [Worker-373: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 02:18:43,794 [Worker-378: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:18:43,803 [Worker-378: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 02:18:43,806 [Worker-378: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:18:43,814 [Worker-378: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 02:19:26,022 [Worker-378: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:19:26,028 [Worker-378: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 02:19:26,031 [Worker-378: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:19:26,070 [Worker-378: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 02:19:27,333 [Worker-372: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:19:27,336 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 02:19:27,354 [Worker-372: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:19:27,356 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 02:22:17,143 [Worker-372: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:22:17,175 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 02:22:17,178 [Worker-372: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:22:17,180 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 02:25:17,979 [Worker-379: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:25:17,998 [Worker-379: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 02:25:18,051 [Worker-379: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:25:18,055 [Worker-379: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 02:26:24,896 [Worker-379: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:26:24,914 [Worker-379: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 02:26:24,917 [Worker-379: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:26:24,918 [Worker-379: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 02:27:02,974 [Worker-377: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:27:02,983 [Worker-377: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 02:27:02,984 [Worker-377: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:27:02,985 [Worker-377: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 02:28:29,096 [Worker-376: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:28:29,116 [Worker-376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 02:28:29,118 [Worker-376: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:28:29,119 [Worker-376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 02:28:43,417 [Worker-376: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:28:43,424 [Worker-376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 02:28:43,426 [Worker-376: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:28:43,427 [Worker-376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 02:33:56,715 [Worker-379: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:33:56,733 [Worker-379: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 02:33:56,740 [Worker-379: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:33:56,742 [Worker-379: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 02:34:36,904 [Worker-380: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:34:36,917 [Worker-380: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 02:34:36,920 [Worker-380: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 02:34:36,920 [Worker-380: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 07:51:59,047 [Worker-384: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 07:51:59,135 [Worker-384: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 07:51:59,143 [Worker-384: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 07:51:59,146 [Worker-384: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 07:53:22,326 [Worker-379: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 07:53:22,359 [Worker-379: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 07:53:22,379 [Worker-379: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 07:53:22,381 [Worker-379: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 08:09:11,778 [Worker-390: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 08:09:11,822 [Worker-390: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 08:09:11,825 [Worker-390: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 08:09:11,826 [Worker-390: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 10:14:41,197 [Worker-400: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 10:14:41,329 [Worker-400: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-07 10:14:41,342 [Worker-400: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 10:14:41,343 [Worker-400: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 07:50:58,597 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-08 07:51:04,282 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 07:51:04,353 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 07:51:04,363 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 07:51:04,365 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 07:51:09,788 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 07:51:09,797 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-08 07:51:09,825 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 07:51:09,827 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 07:51:11,545 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 07:51:11,565 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-08 07:51:11,588 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 07:51:11,594 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 07:53:39,140 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 07:53:39,165 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-08 07:53:39,169 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 07:53:39,170 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 10:22:13,435 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:22:13,461 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-08 10:22:13,464 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:22:13,466 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 10:23:05,708 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:23:05,716 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 10:23:05,719 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:23:05,720 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 10:24:29,572 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-08 10:24:32,491 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:24:32,531 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 10:24:32,537 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:24:32,539 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 10:30:26,256 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-08 10:30:35,473 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:30:35,542 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 10:30:35,569 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:30:35,590 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 10:41:56,124 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-08 10:42:01,343 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:42:01,406 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 10:42:01,413 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:42:01,416 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 10:42:03,263 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:42:03,268 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-08 10:42:03,284 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:42:03,286 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 10:46:20,297 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:46:20,355 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-08 10:46:20,361 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:46:20,362 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 10:49:13,231 [Worker-15: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:49:13,252 [Worker-15: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-08 10:49:13,259 [Worker-15: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 10:49:13,263 [Worker-15: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 11:37:53,507 [Worker-19: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 11:37:53,533 [Worker-19: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-08 11:37:53,538 [Worker-19: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 11:37:53,540 [Worker-19: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 11:38:32,176 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 11:38:32,193 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-08 11:38:32,196 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 11:38:32,198 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 11:42:59,420 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 11:42:59,429 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-08 11:42:59,433 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 11:42:59,435 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 11:43:31,065 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 11:43:31,083 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-08 11:43:31,232 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 11:43:31,241 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 11:45:26,473 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 11:45:26,491 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-08 11:45:26,494 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 11:45:26,494 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 15:06:40,090 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 15:06:40,123 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 15:06:40,138 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 15:06:40,142 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 15:53:57,775 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 15:53:57,795 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-08 15:53:57,799 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 15:53:57,806 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:32:33,389 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:project-one:0.0.1-SNAPSHOT @ /Users/ashlioneal/Desktop/project-one/project-one/pom.xml.
+2021-12-08 21:32:35,164 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:32:35,173 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:32:35,179 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:32:35,185 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:32:39,891 [Worker-44: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2-sources.jar
+2021-12-08 21:32:40,217 [Worker-44: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2-sources.jar
+2021-12-08 21:32:40,231 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:32:40,249 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-08 21:32:40,277 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:32:40,279 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:32:40,720 [Worker-44: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-api:5.8.2
+2021-12-08 21:32:41,042 [Worker-44: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2-sources.jar
+2021-12-08 21:32:41,403 [Worker-44: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2-sources.jar
+2021-12-08 21:32:41,669 [Worker-44: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-commons:1.8.2
+2021-12-08 21:32:41,872 [Worker-44: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.1.0/mockito-core-4.1.0-sources.jar
+2021-12-08 21:32:42,111 [Worker-44: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.1.0/mockito-core-4.1.0-sources.jar
+2021-12-08 21:32:42,251 [Worker-44: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mockito:mockito-core:4.1.0
+2021-12-08 21:32:42,410 [Worker-44: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.1/byte-buddy-1.12.1-sources.jar
+2021-12-08 21:32:42,844 [Worker-44: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.1/byte-buddy-1.12.1-sources.jar
+2021-12-08 21:32:43,033 [Worker-44: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.12.1
+2021-12-08 21:32:43,198 [Worker-44: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.12.1/byte-buddy-agent-1.12.1-sources.jar
+2021-12-08 21:32:43,385 [Worker-44: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.12.1/byte-buddy-agent-1.12.1-sources.jar
+2021-12-08 21:32:43,655 [Worker-44: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy-agent:1.12.1
+2021-12-08 21:32:44,120 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:32:44,122 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:32:44,124 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:32:44,126 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:32:59,615 [Worker-42: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:project-one:0.0.1-SNAPSHOT @ /Users/ashlioneal/Desktop/project-one/project-one/pom.xml.
+2021-12-08 21:33:03,204 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:33:03,230 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:33:03,234 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:33:03,240 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:33:48,279 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:project-one:0.0.1-SNAPSHOT @ /Users/ashlioneal/Desktop/project-one/project-one/pom.xml.
+2021-12-08 21:33:48,566 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:33:48,568 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:33:48,570 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:33:48,571 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:35:58,702 [Worker-44: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:project-one:0.0.1-SNAPSHOT @ /Users/ashlioneal/Desktop/project-one/project-one/pom.xml.
+2021-12-08 21:35:59,195 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:35:59,197 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:35:59,199 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:35:59,202 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:36:03,559 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:36:03,567 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-08 21:36:03,574 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:36:03,575 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:38:46,171 [Worker-44: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:project-one:0.0.1-SNAPSHOT @ /Users/ashlioneal/Desktop/project-one/project-one/pom.xml.
+2021-12-08 21:38:47,238 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:38:47,242 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:38:47,244 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:38:47,245 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:38:49,992 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:38:49,998 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-08 21:38:50,006 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:38:50,007 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:42:48,389 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:42:48,414 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:42:48,417 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:42:48,419 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:43:06,887 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:43:06,898 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:43:06,903 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:43:06,904 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:58:10,379 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:58:10,407 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:58:10,416 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 21:58:10,420 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 21:58:25,312 [Worker-55: Launching AuthorizationServiceTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.8.2/junit-platform-launcher-1.8.2.jar
+2021-12-08 21:58:25,459 [Worker-55: Launching AuthorizationServiceTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.8.2/junit-platform-launcher-1.8.2.jar
+2021-12-08 21:58:25,648 [Worker-55: Launching AuthorizationServiceTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar
+2021-12-08 21:58:25,763 [Worker-55: Launching AuthorizationServiceTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar
+2021-12-08 21:58:25,886 [Worker-55: Launching AuthorizationServiceTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar
+2021-12-08 21:58:25,987 [Worker-55: Launching AuthorizationServiceTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar
+2021-12-08 22:03:28,529 [Worker-55: Launching AuthorizationServiceTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:03:28,544 [Worker-55: Launching AuthorizationServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:03:28,549 [Worker-55: Launching AuthorizationServiceTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:03:28,552 [Worker-55: Launching AuthorizationServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:05:42,920 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:05:42,931 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:05:42,934 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:05:42,937 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:09:53,531 [Worker-66: Creating project "project-one-e2e-testing"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:project-one-e2e-testing:0.0.1-SNAPSHOT @ /Users/ashlioneal/Desktop/project-one/project-one-e2e-testing/pom.xml.
+2021-12-08 22:09:54,029 [Worker-66: Creating project "project-one-e2e-testing"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project-one-e2e-testing/src/main/java
+2021-12-08 22:09:54,030 [Worker-66: Creating project "project-one-e2e-testing"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /project-one-e2e-testing/src/main/resources
+2021-12-08 22:09:54,031 [Worker-66: Creating project "project-one-e2e-testing"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project-one-e2e-testing/src/test/java
+2021-12-08 22:09:54,031 [Worker-66: Creating project "project-one-e2e-testing"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /project-one-e2e-testing/src/test/resources
+2021-12-08 22:09:56,512 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:09:56,538 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:09:56,540 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:09:56,542 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:12:36,504 [Worker-69: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:gradify-e2e-testing-framework:0.0.1-SNAPSHOT @ /Users/ashlioneal/Desktop/project-one/project-one-e2e-testing/pom.xml.
+2021-12-08 22:12:38,282 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-jvm/7.1.0/cucumber-jvm-7.1.0.pom
+2021-12-08 22:12:38,427 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-jvm/7.1.0/cucumber-jvm-7.1.0.pom
+2021-12-08 22:12:38,509 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-plugin/7.1.0/cucumber-plugin-7.1.0.pom
+2021-12-08 22:12:38,615 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-plugin/7.1.0/cucumber-plugin-7.1.0.pom
+2021-12-08 22:12:38,672 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin-messages/7.1.0/cucumber-gherkin-messages-7.1.0.pom
+2021-12-08 22:12:38,728 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin-messages/7.1.0/cucumber-gherkin-messages-7.1.0.pom
+2021-12-08 22:12:38,773 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.pom
+2021-12-08 22:12:38,869 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.pom
+2021-12-08 22:12:38,931 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/docstring/7.1.0/docstring-7.1.0.pom
+2021-12-08 22:12:39,041 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/docstring/7.1.0/docstring-7.1.0.pom
+2021-12-08 22:12:39,236 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/create-meta/6.0.4/create-meta-6.0.4.pom
+2021-12-08 22:12:39,379 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/create-meta/6.0.4/create-meta-6.0.4.pom
+2021-12-08 22:12:39,582 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit-platform-engine/7.1.0/cucumber-junit-platform-engine-7.1.0.pom
+2021-12-08 22:12:39,643 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit-platform-engine/7.1.0/cucumber-junit-platform-engine-7.1.0.pom
+2021-12-08 22:12:39,691 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.pom
+2021-12-08 22:12:39,737 [Worker-69: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.pom
+2021-12-08 22:12:39,871 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.1.0/selenium-api-4.1.0.jar
+2021-12-08 22:12:39,948 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar
+2021-12-08 22:12:39,948 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.1.0/selenium-java-4.1.0.jar
+2021-12-08 22:12:39,949 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar
+2021-12-08 22:12:39,948 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.1.0/selenium-chrome-driver-4.1.0.jar
+2021-12-08 22:12:39,993 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.1.0/selenium-java-4.1.0.jar
+2021-12-08 22:12:40,002 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.1.0/selenium-chrome-driver-4.1.0.jar
+2021-12-08 22:12:40,076 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.1.0/selenium-chromium-driver-4.1.0.jar
+2021-12-08 22:12:40,077 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar
+2021-12-08 22:12:40,078 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/auto/auto-common/1.2/auto-common-1.2.jar
+2021-12-08 22:12:40,089 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar
+2021-12-08 22:12:40,098 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.1.0/selenium-api-4.1.0.jar
+2021-12-08 22:12:40,533 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.1.0/selenium-json-4.1.0.jar
+2021-12-08 22:12:40,541 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/auto/auto-common/1.2/auto-common-1.2.jar
+2021-12-08 22:12:40,541 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v94/4.1.0/selenium-devtools-v94-4.1.0.jar
+2021-12-08 22:12:40,547 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v85/4.1.0/selenium-devtools-v85-4.1.0.jar
+2021-12-08 22:12:40,581 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.1.0/selenium-chromium-driver-4.1.0.jar
+2021-12-08 22:12:41,872 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v95/4.1.0/selenium-devtools-v95-4.1.0.jar
+2021-12-08 22:12:41,873 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v96/4.1.0/selenium-devtools-v96-4.1.0.jar
+2021-12-08 22:12:41,919 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v85/4.1.0/selenium-devtools-v85-4.1.0.jar
+2021-12-08 22:12:41,921 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.1.0/selenium-json-4.1.0.jar
+2021-12-08 22:12:41,923 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v94/4.1.0/selenium-devtools-v94-4.1.0.jar
+2021-12-08 22:12:41,970 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.1.0/selenium-edge-driver-4.1.0.jar
+2021-12-08 22:12:42,000 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.1.0/selenium-firefox-driver-4.1.0.jar
+2021-12-08 22:12:42,003 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.1.0/selenium-firefox-xpi-driver-4.1.0.jar
+2021-12-08 22:12:42,196 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.1.0/selenium-firefox-driver-4.1.0.jar
+2021-12-08 22:12:42,198 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.1.0/selenium-edge-driver-4.1.0.jar
+2021-12-08 22:12:42,251 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/4.1.0/selenium-opera-driver-4.1.0.jar
+2021-12-08 22:12:42,275 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.1.0/selenium-ie-driver-4.1.0.jar
+2021-12-08 22:12:42,379 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.1.0/selenium-firefox-xpi-driver-4.1.0.jar
+2021-12-08 22:12:42,385 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v95/4.1.0/selenium-devtools-v95-4.1.0.jar
+2021-12-08 22:12:42,388 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v96/4.1.0/selenium-devtools-v96-4.1.0.jar
+2021-12-08 22:12:42,476 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.69.Final/netty-codec-http-4.1.69.Final.jar
+2021-12-08 22:12:42,484 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.69.Final/netty-buffer-4.1.69.Final.jar
+2021-12-08 22:12:42,500 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.1.0/selenium-remote-driver-4.1.0.jar
+2021-12-08 22:12:42,517 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.1.0/selenium-ie-driver-4.1.0.jar
+2021-12-08 22:12:42,533 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/4.1.0/selenium-opera-driver-4.1.0.jar
+2021-12-08 22:12:42,625 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.69.Final/netty-codec-4.1.69.Final.jar
+2021-12-08 22:12:42,639 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.69.Final/netty-handler-4.1.69.Final.jar
+2021-12-08 22:12:42,693 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.69.Final/netty-buffer-4.1.69.Final.jar
+2021-12-08 22:12:42,717 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.1.0/selenium-remote-driver-4.1.0.jar
+2021-12-08 22:12:42,727 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.69.Final/netty-codec-4.1.69.Final.jar
+2021-12-08 22:12:42,732 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.69.Final/netty-codec-http-4.1.69.Final.jar
+2021-12-08 22:12:42,754 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.69.Final/netty-common-4.1.69.Final.jar
+2021-12-08 22:12:42,776 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.69.Final/netty-handler-4.1.69.Final.jar
+2021-12-08 22:12:42,784 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.69.Final/netty-transport-native-epoll-4.1.69.Final.jar
+2021-12-08 22:12:42,790 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.69.Final/netty-transport-native-kqueue-4.1.69.Final.jar
+2021-12-08 22:12:42,819 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.69.Final/netty-transport-4.1.69.Final.jar
+2021-12-08 22:12:42,836 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.69.Final/netty-transport-native-unix-common-4.1.69.Final.jar
+2021-12-08 22:12:42,878 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.69.Final/netty-transport-native-epoll-4.1.69.Final.jar
+2021-12-08 22:12:42,878 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.69.Final/netty-transport-native-kqueue-4.1.69.Final.jar
+2021-12-08 22:12:42,878 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.69.Final/netty-common-4.1.69.Final.jar
+2021-12-08 22:12:42,920 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.69.Final/netty-transport-native-unix-common-4.1.69.Final.jar
+2021-12-08 22:12:42,921 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.69.Final/netty-transport-4.1.69.Final.jar
+2021-12-08 22:12:42,939 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.69.Final/netty-resolver-4.1.69.Final.jar
+2021-12-08 22:12:42,943 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.9.0/opentelemetry-context-1.9.0.jar
+2021-12-08 22:12:42,944 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.9.0/opentelemetry-api-1.9.0.jar
+2021-12-08 22:12:42,985 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.9.0/opentelemetry-exporter-logging-1.9.0.jar
+2021-12-08 22:12:42,985 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.9.0-alpha/opentelemetry-sdk-metrics-1.9.0-alpha.jar
+2021-12-08 22:12:43,026 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.9.0/opentelemetry-context-1.9.0.jar
+2021-12-08 22:12:43,058 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.69.Final/netty-resolver-4.1.69.Final.jar
+2021-12-08 22:12:43,070 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.9.0/opentelemetry-api-1.9.0.jar
+2021-12-08 22:12:43,073 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.9.0-alpha/opentelemetry-sdk-logs-1.9.0-alpha.jar
+2021-12-08 22:12:43,082 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.9.0/opentelemetry-exporter-logging-1.9.0.jar
+2021-12-08 22:12:43,101 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.9.0-alpha/opentelemetry-sdk-metrics-1.9.0-alpha.jar
+2021-12-08 22:12:43,116 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.9.0/opentelemetry-sdk-common-1.9.0.jar
+2021-12-08 22:12:43,148 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.9.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.9.0-alpha.jar
+2021-12-08 22:12:43,148 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.9.0/opentelemetry-sdk-extension-autoconfigure-spi-1.9.0.jar
+2021-12-08 22:12:43,151 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.9.0/opentelemetry-sdk-trace-1.9.0.jar
+2021-12-08 22:12:43,189 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.9.0-alpha/opentelemetry-sdk-logs-1.9.0-alpha.jar
+2021-12-08 22:12:43,205 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.9.0/opentelemetry-sdk-common-1.9.0.jar
+2021-12-08 22:12:43,242 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-metrics/1.9.0-alpha/opentelemetry-api-metrics-1.9.0-alpha.jar
+2021-12-08 22:12:43,250 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.9.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.9.0-alpha.jar
+2021-12-08 22:12:43,254 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.9.0/opentelemetry-sdk-extension-autoconfigure-spi-1.9.0.jar
+2021-12-08 22:12:43,273 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.9.0/opentelemetry-sdk-1.9.0.jar
+2021-12-08 22:12:43,277 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.9.0/opentelemetry-sdk-trace-1.9.0.jar
+2021-12-08 22:12:43,307 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-semconv/1.9.0-alpha/opentelemetry-semconv-1.9.0-alpha.jar
+2021-12-08 22:12:43,310 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.1.0/selenium-http-4.1.0.jar
+2021-12-08 22:12:43,350 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/jodah/failsafe/2.4.4/failsafe-2.4.4.jar
+2021-12-08 22:12:43,364 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.9.0/opentelemetry-sdk-1.9.0.jar
+2021-12-08 22:12:43,365 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-metrics/1.9.0-alpha/opentelemetry-api-metrics-1.9.0-alpha.jar
+2021-12-08 22:12:43,391 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.1.0/selenium-http-4.1.0.jar
+2021-12-08 22:12:43,391 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-semconv/1.9.0-alpha/opentelemetry-semconv-1.9.0-alpha.jar
+2021-12-08 22:12:43,424 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.1.0/selenium-safari-driver-4.1.0.jar
+2021-12-08 22:12:43,435 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.1.0/selenium-support-4.1.0.jar
+2021-12-08 22:12:43,469 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java/7.1.0/cucumber-java-7.1.0.jar
+2021-12-08 22:12:43,490 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-core/7.1.0/cucumber-core-7.1.0.jar
+2021-12-08 22:12:43,497 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/jodah/failsafe/2.4.4/failsafe-2.4.4.jar
+2021-12-08 22:12:43,523 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.1.0/selenium-safari-driver-4.1.0.jar
+2021-12-08 22:12:43,531 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.1.0/selenium-support-4.1.0.jar
+2021-12-08 22:12:43,537 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin/7.1.0/cucumber-gherkin-7.1.0.jar
+2021-12-08 22:12:43,580 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin-messages/7.1.0/cucumber-gherkin-messages-7.1.0.jar
+2021-12-08 22:12:43,581 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar
+2021-12-08 22:12:43,610 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-core/7.1.0/cucumber-core-7.1.0.jar
+2021-12-08 22:12:43,626 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin/7.1.0/cucumber-gherkin-7.1.0.jar
+2021-12-08 22:12:43,638 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java/7.1.0/cucumber-java-7.1.0.jar
+2021-12-08 22:12:43,657 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/datatable/7.1.0/datatable-7.1.0.jar
+2021-12-08 22:12:43,669 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin-messages/7.1.0/cucumber-gherkin-messages-7.1.0.jar
+2021-12-08 22:12:43,669 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar
+2021-12-08 22:12:43,689 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-plugin/7.1.0/cucumber-plugin-7.1.0.jar
+2021-12-08 22:12:43,691 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/docstring/7.1.0/docstring-7.1.0.jar
+2021-12-08 22:12:43,725 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit/7.1.0/cucumber-junit-7.1.0.jar
+2021-12-08 22:12:43,728 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/create-meta/6.0.4/create-meta-6.0.4.jar
+2021-12-08 22:12:43,736 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/datatable/7.1.0/datatable-7.1.0.jar
+2021-12-08 22:12:43,772 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/docstring/7.1.0/docstring-7.1.0.jar
+2021-12-08 22:12:43,772 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-plugin/7.1.0/cucumber-plugin-7.1.0.jar
+2021-12-08 22:12:43,808 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit-platform-engine/7.1.0/cucumber-junit-platform-engine-7.1.0.jar
+2021-12-08 22:12:43,820 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit/7.1.0/cucumber-junit-7.1.0.jar
+2021-12-08 22:12:43,826 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/create-meta/6.0.4/create-meta-6.0.4.jar
+2021-12-08 22:12:43,872 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit-platform-engine/7.1.0/cucumber-junit-platform-engine-7.1.0.jar
+2021-12-08 22:12:54,734 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:12:54,797 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:12:54,800 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:12:54,801 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:12:56,658 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:12:56,661 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:12:56,663 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:12:56,665 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:12:57,015 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.1.0/selenium-java-4.1.0-sources.jar
+2021-12-08 22:12:57,081 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.1.0/selenium-java-4.1.0-sources.jar
+2021-12-08 22:12:57,295 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-java:4.1.0
+2021-12-08 22:12:57,488 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.1.0/selenium-api-4.1.0-sources.jar
+2021-12-08 22:12:57,631 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.1.0/selenium-api-4.1.0-sources.jar
+2021-12-08 22:12:57,771 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-api:4.1.0
+2021-12-08 22:12:57,991 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.1.0/selenium-chrome-driver-4.1.0-sources.jar
+2021-12-08 22:12:58,075 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.1.0/selenium-chrome-driver-4.1.0-sources.jar
+2021-12-08 22:12:58,182 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-chrome-driver:4.1.0
+2021-12-08 22:12:58,359 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1-sources.jar
+2021-12-08 22:12:58,441 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1-sources.jar
+2021-12-08 22:12:58,839 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.auto.service:auto-service-annotations:1.0.1
+2021-12-08 22:12:59,013 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1-sources.jar
+2021-12-08 22:12:59,099 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1-sources.jar
+2021-12-08 22:12:59,211 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.auto.service:auto-service:1.0.1
+2021-12-08 22:12:59,408 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/auto/auto-common/1.2/auto-common-1.2-sources.jar
+2021-12-08 22:12:59,504 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/auto/auto-common/1.2/auto-common-1.2-sources.jar
+2021-12-08 22:12:59,695 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.auto:auto-common:1.2
+2021-12-08 22:12:59,862 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.1.0/selenium-chromium-driver-4.1.0-sources.jar
+2021-12-08 22:12:59,942 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.1.0/selenium-chromium-driver-4.1.0-sources.jar
+2021-12-08 22:13:00,007 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-chromium-driver:4.1.0
+2021-12-08 22:13:00,179 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.1.0/selenium-json-4.1.0-sources.jar
+2021-12-08 22:13:00,710 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.1.0/selenium-json-4.1.0-sources.jar
+2021-12-08 22:13:00,771 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-json:4.1.0
+2021-12-08 22:13:00,945 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v85/4.1.0/selenium-devtools-v85-4.1.0-sources.jar
+2021-12-08 22:13:01,144 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v85/4.1.0/selenium-devtools-v85-4.1.0-sources.jar
+2021-12-08 22:13:01,231 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-devtools-v85:4.1.0
+2021-12-08 22:13:01,638 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v94/4.1.0/selenium-devtools-v94-4.1.0-sources.jar
+2021-12-08 22:13:01,859 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v94/4.1.0/selenium-devtools-v94-4.1.0-sources.jar
+2021-12-08 22:13:01,931 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-devtools-v94:4.1.0
+2021-12-08 22:13:02,117 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v95/4.1.0/selenium-devtools-v95-4.1.0-sources.jar
+2021-12-08 22:13:02,311 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v95/4.1.0/selenium-devtools-v95-4.1.0-sources.jar
+2021-12-08 22:13:02,407 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-devtools-v95:4.1.0
+2021-12-08 22:13:02,586 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v96/4.1.0/selenium-devtools-v96-4.1.0-sources.jar
+2021-12-08 22:13:02,794 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v96/4.1.0/selenium-devtools-v96-4.1.0-sources.jar
+2021-12-08 22:13:02,874 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-devtools-v96:4.1.0
+2021-12-08 22:13:03,671 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.1.0/selenium-edge-driver-4.1.0-sources.jar
+2021-12-08 22:13:03,751 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.1.0/selenium-edge-driver-4.1.0-sources.jar
+2021-12-08 22:13:03,831 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-edge-driver:4.1.0
+2021-12-08 22:13:04,058 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.1.0/selenium-firefox-driver-4.1.0-sources.jar
+2021-12-08 22:13:04,149 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.1.0/selenium-firefox-driver-4.1.0-sources.jar
+2021-12-08 22:13:04,227 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-firefox-driver:4.1.0
+2021-12-08 22:13:04,417 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.1.0/selenium-firefox-xpi-driver-4.1.0-sources.jar
+2021-12-08 22:13:04,499 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.1.0/selenium-firefox-xpi-driver-4.1.0-sources.jar
+2021-12-08 22:13:04,699 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-firefox-xpi-driver:4.1.0
+2021-12-08 22:13:04,880 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.1.0/selenium-ie-driver-4.1.0-sources.jar
+2021-12-08 22:13:04,957 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.1.0/selenium-ie-driver-4.1.0-sources.jar
+2021-12-08 22:13:05,023 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-ie-driver:4.1.0
+2021-12-08 22:13:05,195 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/4.1.0/selenium-opera-driver-4.1.0-sources.jar
+2021-12-08 22:13:05,689 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/4.1.0/selenium-opera-driver-4.1.0-sources.jar
+2021-12-08 22:13:05,765 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-opera-driver:4.1.0
+2021-12-08 22:13:05,929 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.1.0/selenium-remote-driver-4.1.0-sources.jar
+2021-12-08 22:13:06,089 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.1.0/selenium-remote-driver-4.1.0-sources.jar
+2021-12-08 22:13:06,315 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-remote-driver:4.1.0
+2021-12-08 22:13:06,495 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.69.Final/netty-buffer-4.1.69.Final-sources.jar
+2021-12-08 22:13:06,660 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.69.Final/netty-buffer-4.1.69.Final-sources.jar
+2021-12-08 22:13:06,734 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-buffer:4.1.69.Final
+2021-12-08 22:13:06,906 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.69.Final/netty-codec-http-4.1.69.Final-sources.jar
+2021-12-08 22:13:07,157 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.69.Final/netty-codec-http-4.1.69.Final-sources.jar
+2021-12-08 22:13:07,588 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-codec-http:4.1.69.Final
+2021-12-08 22:13:07,763 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.69.Final/netty-codec-4.1.69.Final-sources.jar
+2021-12-08 22:13:08,006 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.69.Final/netty-codec-4.1.69.Final-sources.jar
+2021-12-08 22:13:08,454 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-codec:4.1.69.Final
+2021-12-08 22:13:08,846 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.69.Final/netty-handler-4.1.69.Final-sources.jar
+2021-12-08 22:13:09,027 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.69.Final/netty-handler-4.1.69.Final-sources.jar
+2021-12-08 22:13:09,105 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-handler:4.1.69.Final
+2021-12-08 22:13:09,297 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.69.Final/netty-common-4.1.69.Final-sources.jar
+2021-12-08 22:13:09,503 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.69.Final/netty-common-4.1.69.Final-sources.jar
+2021-12-08 22:13:09,576 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-common:4.1.69.Final
+2021-12-08 22:13:09,741 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.69.Final/netty-transport-native-epoll-4.1.69.Final-sources.jar
+2021-12-08 22:13:10,009 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.69.Final/netty-transport-native-epoll-4.1.69.Final-sources.jar
+2021-12-08 22:13:10,674 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-transport-native-epoll:4.1.69.Final
+2021-12-08 22:13:11,181 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.69.Final/netty-transport-native-kqueue-4.1.69.Final-sources.jar
+2021-12-08 22:13:11,369 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.69.Final/netty-transport-native-kqueue-4.1.69.Final-sources.jar
+2021-12-08 22:13:11,616 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-transport-native-kqueue:4.1.69.Final
+2021-12-08 22:13:11,819 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.69.Final/netty-transport-native-unix-common-4.1.69.Final-sources.jar
+2021-12-08 22:13:11,921 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.69.Final/netty-transport-native-unix-common-4.1.69.Final-sources.jar
+2021-12-08 22:13:12,227 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-transport-native-unix-common:4.1.69.Final
+2021-12-08 22:13:12,416 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.69.Final/netty-transport-4.1.69.Final-sources.jar
+2021-12-08 22:13:12,595 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.69.Final/netty-transport-4.1.69.Final-sources.jar
+2021-12-08 22:13:12,801 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-transport:4.1.69.Final
+2021-12-08 22:13:12,988 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.69.Final/netty-resolver-4.1.69.Final-sources.jar
+2021-12-08 22:13:13,067 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.69.Final/netty-resolver-4.1.69.Final-sources.jar
+2021-12-08 22:13:13,181 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-resolver:4.1.69.Final
+2021-12-08 22:13:13,372 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.9.0/opentelemetry-api-1.9.0-sources.jar
+2021-12-08 22:13:13,467 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.9.0/opentelemetry-api-1.9.0-sources.jar
+2021-12-08 22:13:13,569 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-api:1.9.0
+2021-12-08 22:13:13,843 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.9.0/opentelemetry-context-1.9.0-sources.jar
+2021-12-08 22:13:14,325 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.9.0/opentelemetry-context-1.9.0-sources.jar
+2021-12-08 22:13:14,409 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-context:1.9.0
+2021-12-08 22:13:14,630 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.9.0/opentelemetry-exporter-logging-1.9.0-sources.jar
+2021-12-08 22:13:14,718 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.9.0/opentelemetry-exporter-logging-1.9.0-sources.jar
+2021-12-08 22:13:14,822 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-exporter-logging:1.9.0
+2021-12-08 22:13:15,021 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.9.0-alpha/opentelemetry-sdk-metrics-1.9.0-alpha-sources.jar
+2021-12-08 22:13:15,149 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.9.0-alpha/opentelemetry-sdk-metrics-1.9.0-alpha-sources.jar
+2021-12-08 22:13:15,237 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-metrics:1.9.0-alpha
+2021-12-08 22:13:15,442 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.9.0-alpha/opentelemetry-sdk-logs-1.9.0-alpha-sources.jar
+2021-12-08 22:13:15,525 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.9.0-alpha/opentelemetry-sdk-logs-1.9.0-alpha-sources.jar
+2021-12-08 22:13:15,691 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-logs:1.9.0-alpha
+2021-12-08 22:13:15,993 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.9.0/opentelemetry-sdk-common-1.9.0-sources.jar
+2021-12-08 22:13:16,087 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.9.0/opentelemetry-sdk-common-1.9.0-sources.jar
+2021-12-08 22:13:16,332 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-common:1.9.0
+2021-12-08 22:13:16,694 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.9.0/opentelemetry-sdk-extension-autoconfigure-spi-1.9.0-sources.jar
+2021-12-08 22:13:16,759 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.9.0/opentelemetry-sdk-extension-autoconfigure-spi-1.9.0-sources.jar
+2021-12-08 22:13:16,849 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:1.9.0
+2021-12-08 22:13:17,083 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.9.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.9.0-alpha-sources.jar
+2021-12-08 22:13:17,193 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.9.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.9.0-alpha-sources.jar
+2021-12-08 22:13:17,301 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:1.9.0-alpha
+2021-12-08 22:13:17,479 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.9.0/opentelemetry-sdk-trace-1.9.0-sources.jar
+2021-12-08 22:13:17,572 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.9.0/opentelemetry-sdk-trace-1.9.0-sources.jar
+2021-12-08 22:13:17,678 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-trace:1.9.0
+2021-12-08 22:13:17,867 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-metrics/1.9.0-alpha/opentelemetry-api-metrics-1.9.0-alpha-sources.jar
+2021-12-08 22:13:17,947 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-metrics/1.9.0-alpha/opentelemetry-api-metrics-1.9.0-alpha-sources.jar
+2021-12-08 22:13:18,020 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-api-metrics:1.9.0-alpha
+2021-12-08 22:13:18,241 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.9.0/opentelemetry-sdk-1.9.0-sources.jar
+2021-12-08 22:13:18,331 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.9.0/opentelemetry-sdk-1.9.0-sources.jar
+2021-12-08 22:13:18,427 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk:1.9.0
+2021-12-08 22:13:18,637 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-semconv/1.9.0-alpha/opentelemetry-semconv-1.9.0-alpha-sources.jar
+2021-12-08 22:13:18,728 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-semconv/1.9.0-alpha/opentelemetry-semconv-1.9.0-alpha-sources.jar
+2021-12-08 22:13:19,312 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-semconv:1.9.0-alpha
+2021-12-08 22:13:19,549 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.1.0/selenium-http-4.1.0-sources.jar
+2021-12-08 22:13:19,604 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.1.0/selenium-http-4.1.0-sources.jar
+2021-12-08 22:13:19,807 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-http:4.1.0
+2021-12-08 22:13:20,027 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/jodah/failsafe/2.4.4/failsafe-2.4.4-sources.jar
+2021-12-08 22:13:20,134 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/jodah/failsafe/2.4.4/failsafe-2.4.4-sources.jar
+2021-12-08 22:13:20,398 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.jodah:failsafe:2.4.4
+2021-12-08 22:13:20,573 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.1.0/selenium-safari-driver-4.1.0-sources.jar
+2021-12-08 22:13:20,654 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.1.0/selenium-safari-driver-4.1.0-sources.jar
+2021-12-08 22:13:20,731 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-safari-driver:4.1.0
+2021-12-08 22:13:20,907 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.1.0/selenium-support-4.1.0-sources.jar
+2021-12-08 22:13:21,428 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.1.0/selenium-support-4.1.0-sources.jar
+2021-12-08 22:13:21,675 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-support:4.1.0
+2021-12-08 22:13:21,944 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java/7.1.0/cucumber-java-7.1.0-sources.jar
+2021-12-08 22:13:22,190 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java/7.1.0/cucumber-java-7.1.0-sources.jar
+2021-12-08 22:13:22,330 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-java:7.1.0
+2021-12-08 22:13:22,713 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-core/7.1.0/cucumber-core-7.1.0-sources.jar
+2021-12-08 22:13:22,934 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-core/7.1.0/cucumber-core-7.1.0-sources.jar
+2021-12-08 22:13:23,024 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-core:7.1.0
+2021-12-08 22:13:23,317 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin/7.1.0/cucumber-gherkin-7.1.0-sources.jar
+2021-12-08 22:13:23,401 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin/7.1.0/cucumber-gherkin-7.1.0-sources.jar
+2021-12-08 22:13:23,492 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-gherkin:7.1.0
+2021-12-08 22:13:23,690 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin-messages/7.1.0/cucumber-gherkin-messages-7.1.0-sources.jar
+2021-12-08 22:13:23,791 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin-messages/7.1.0/cucumber-gherkin-messages-7.1.0-sources.jar
+2021-12-08 22:13:23,928 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-gherkin-messages:7.1.0
+2021-12-08 22:13:24,153 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0-sources.jar
+2021-12-08 22:13:24,249 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0-sources.jar
+2021-12-08 22:13:24,484 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:tag-expressions:4.1.0
+2021-12-08 22:13:24,685 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/datatable/7.1.0/datatable-7.1.0-sources.jar
+2021-12-08 22:13:24,771 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/datatable/7.1.0/datatable-7.1.0-sources.jar
+2021-12-08 22:13:24,867 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:datatable:7.1.0
+2021-12-08 22:13:25,049 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-plugin/7.1.0/cucumber-plugin-7.1.0-sources.jar
+2021-12-08 22:13:25,133 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-plugin/7.1.0/cucumber-plugin-7.1.0-sources.jar
+2021-12-08 22:13:25,597 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-plugin:7.1.0
+2021-12-08 22:13:25,795 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/docstring/7.1.0/docstring-7.1.0-sources.jar
+2021-12-08 22:13:25,877 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/docstring/7.1.0/docstring-7.1.0-sources.jar
+2021-12-08 22:13:25,988 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:docstring:7.1.0
+2021-12-08 22:13:26,211 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/create-meta/6.0.4/create-meta-6.0.4-sources.jar
+2021-12-08 22:13:26,314 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/create-meta/6.0.4/create-meta-6.0.4-sources.jar
+2021-12-08 22:13:26,434 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:create-meta:6.0.4
+2021-12-08 22:13:26,626 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit/7.1.0/cucumber-junit-7.1.0-sources.jar
+2021-12-08 22:13:26,705 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit/7.1.0/cucumber-junit-7.1.0-sources.jar
+2021-12-08 22:13:26,836 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-junit:7.1.0
+2021-12-08 22:13:27,011 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit-platform-engine/7.1.0/cucumber-junit-platform-engine-7.1.0-sources.jar
+2021-12-08 22:13:27,543 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit-platform-engine/7.1.0/cucumber-junit-platform-engine-7.1.0-sources.jar
+2021-12-08 22:13:27,693 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-junit-platform-engine:7.1.0
+2021-12-08 22:13:27,993 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2-sources.jar
+2021-12-08 22:13:28,482 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2-sources.jar
+2021-12-08 22:13:28,563 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-engine:1.8.2
+2021-12-08 22:13:29,825 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:13:29,835 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:13:29,843 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:13:29,860 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:15:49,825 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:15:49,872 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:15:49,875 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:15:49,877 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:18:25,357 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:18:25,374 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:18:25,377 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:18:25,379 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:18:34,787 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:18:34,801 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:18:34,804 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:18:34,805 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:19:08,428 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:19:08,456 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:19:08,461 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:19:08,463 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:20:53,806 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:20:53,824 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:20:53,827 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:20:53,829 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:27:18,033 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:27:18,050 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:27:18,052 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:27:18,054 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:29:06,277 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:29:06,293 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:29:06,298 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:29:06,300 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:29:50,952 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-08 22:33:59,137 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:33:59,172 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:33:59,184 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:33:59,186 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:34:50,144 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-08 22:40:47,636 [Worker-11: Launching login.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:40:47,665 [Worker-11: Launching login.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:40:47,671 [Worker-11: Launching login.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:40:47,672 [Worker-11: Launching login.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:40:50,507 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:40:50,510 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-08 22:40:50,546 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:40:50,549 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:42:38,455 [Worker-13: Launching login.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:42:38,474 [Worker-13: Launching login.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:42:38,477 [Worker-13: Launching login.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:42:38,481 [Worker-13: Launching login.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:46:52,911 [Worker-15: Launching login.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:46:52,945 [Worker-15: Launching login.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:46:52,950 [Worker-15: Launching login.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:46:52,955 [Worker-15: Launching login.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:47:59,359 [Worker-15: Launching login.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:47:59,368 [Worker-15: Launching login.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-08 22:47:59,370 [Worker-15: Launching login.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-08 22:47:59,371 [Worker-15: Launching login.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 10:53:54,367 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-09 10:54:08,819 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 10:54:08,869 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 10:54:08,975 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 10:54:08,990 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 10:54:13,586 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 10:54:13,588 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-09 10:54:13,615 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 10:54:13,616 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 10:54:42,199 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 10:54:42,227 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 10:54:42,257 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 10:54:42,258 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 10:54:44,369 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 10:54:44,377 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-09 10:54:44,400 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 10:54:44,402 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 12:36:39,236 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-09 12:36:48,410 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 12:36:48,424 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 12:36:48,430 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 12:36:48,515 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 12:36:53,273 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 12:36:53,274 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-09 12:36:53,329 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 12:36:53,331 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 12:38:15,603 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 12:38:15,611 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 12:38:15,613 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 12:38:15,615 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 12:38:17,032 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 12:38:17,034 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-09 12:38:17,045 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 12:38:17,047 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 15:15:55,868 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-09 15:16:01,167 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 15:16:01,200 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 15:16:01,211 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 15:16:01,212 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 15:16:04,470 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 15:16:04,472 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-12-09 15:16:04,498 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 15:16:04,500 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 15:16:06,462 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 15:16:06,465 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 15:16:06,472 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 15:16:06,475 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 15:16:07,473 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 15:16:07,474 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-12-09 15:16:07,481 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 15:16:07,483 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 16:12:40,380 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 16:12:40,448 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-09 16:12:40,451 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-09 16:12:40,452 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

@@ -20,15 +20,15 @@ public class UserDAO {
 		
 		ResultSet rs = pstmt.executeQuery();
 		if (rs.next()) {
-			int userId = rs.getInt("user_id");
-			String firstName = rs.getString("first_name");
-			String lastName = rs.getString("last_name");
+			int user_id = rs.getInt("user_id");
+			String first_name = rs.getString("first_name");
+			String last_name = rs.getString("last_name");
 			String email = rs.getString("email");
 			String user = rs.getString("username");
 			String pass = rs.getString("password");
-			String userRole = rs.getString("user_role");
+			String user_role = rs.getString("user_role");
 			
-			return new User(userId, firstName, lastName, email, user, pass, userRole);
+			return new User(user_id, first_name, last_name, email, user, pass, user_role);
 		} else {
 			return null;
 		}
