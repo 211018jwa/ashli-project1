@@ -3881,3 +3881,78 @@ org.postgresql.util.PSQLException: ERROR: column "reimb_receipt" of relation "re
 09 Dec 2021 - 15:16:10.704 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021. Your Javalin version is 60 days old. Consider upgrading!).
 09 Dec 2021 - 15:16:11.482 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
 09 Dec 2021 - 15:16:11.483 [main] INFO  io.javalin.Javalin - Javalin started in 829ms \o/
+09 Dec 2021 - 16:48:57.097 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1570ms to org.eclipse.jetty.util.log.Slf4jLog
+09 Dec 2021 - 16:48:57.321 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/project-one/project-one/target/classes/static/'
+09 Dec 2021 - 16:48:57.677 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+09 Dec 2021 - 16:48:57.684 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+09 Dec 2021 - 16:48:57.716 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021. Your Javalin version is 60 days old. Consider upgrading!).
+09 Dec 2021 - 16:48:58.443 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+09 Dec 2021 - 16:48:58.444 [main] INFO  io.javalin.Javalin - Javalin started in 766ms \o/
+09 Dec 2021 - 16:58:57.820 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1472ms to org.eclipse.jetty.util.log.Slf4jLog
+09 Dec 2021 - 16:58:57.981 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/project-one/project-one/target/classes/static/'
+09 Dec 2021 - 16:58:58.254 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+09 Dec 2021 - 16:58:58.258 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+09 Dec 2021 - 16:58:58.282 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021. Your Javalin version is 60 days old. Consider upgrading!).
+09 Dec 2021 - 16:58:58.881 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+09 Dec 2021 - 16:58:58.882 [main] INFO  io.javalin.Javalin - Javalin started in 628ms \o/
+09 Dec 2021 - 17:07:56.982 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1243ms to org.eclipse.jetty.util.log.Slf4jLog
+09 Dec 2021 - 17:07:57.223 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/project-one/project-one/target/classes/static/'
+09 Dec 2021 - 17:07:57.605 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+09 Dec 2021 - 17:07:57.609 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+09 Dec 2021 - 17:07:57.637 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021. Your Javalin version is 60 days old. Consider upgrading!).
+09 Dec 2021 - 17:07:58.366 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+09 Dec 2021 - 17:07:58.367 [main] INFO  io.javalin.Javalin - Javalin started in 761ms \o/
+22 Dec 2021 - 20:00:56.087 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2719ms to org.eclipse.jetty.util.log.Slf4jLog
+22 Dec 2021 - 20:00:56.535 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/project-one/project-one/target/classes/static/'
+22 Dec 2021 - 20:00:56.995 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+22 Dec 2021 - 20:00:56.999 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+22 Dec 2021 - 20:00:57.042 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021. Your Javalin version is 73 days old. Consider upgrading!).
+22 Dec 2021 - 20:00:57.897 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+22 Dec 2021 - 20:00:57.898 [main] INFO  io.javalin.Javalin - Javalin started in 902ms \o/
+22 Dec 2021 - 20:46:33.212 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1467ms to org.eclipse.jetty.util.log.Slf4jLog
+22 Dec 2021 - 20:46:33.488 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/ashlioneal/Desktop/project-one/project-one/target/classes/static/'
+22 Dec 2021 - 20:46:33.860 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+22 Dec 2021 - 20:46:33.864 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+22 Dec 2021 - 20:46:33.891 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021. Your Javalin version is 73 days old. Consider upgrading!).
+22 Dec 2021 - 20:46:34.629 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+22 Dec 2021 - 20:46:34.630 [main] INFO  io.javalin.Javalin - Javalin started in 769ms \o/

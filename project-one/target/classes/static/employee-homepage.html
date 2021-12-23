@@ -6,12 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
-<style>
-    .editor-stage .snow {
+    <link rel="stylesheet" href="employee.css">
+
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        
+        th,
+        td {
+            padding: 10px;
+            text-align: middle
+        }
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: linear-gradient(#1845ad, #23a2f6);
+            color: white;
+            font-size: 30px;
+            margin:0px;
+            padding: 0px;
+        }
+        body {background: lightgray}
+        h1   {color: black;
+              font-family: Apple Chancery, cursive; 
+              font-size: 300%;
+            }
+        h2 {color: black ;
+            font-family: Apple Chancery, cursive; 
+            font-size: 200%;
+
+        }
+        .editor-stage .snow {
             height: 50px;
             background: #fff;
         }
@@ -80,42 +109,57 @@
                 background-position: 500px 1000px, 200px 400px, -100px 300px;
             }
         }
-        h3 {
-            color: white;
-            font-family: Apple Chancery, cursive;
-            font-size: 300%;
-        }
+        
+
+        
 </style>
+    
 </head>
 
 <body>
     <div class="snow"></div>
-    <div class="background">
-        <div class="shape"></div>
-        <div class="shape"></div>
+    <div class="header"><nav>
+        <h1>Welcome to the Employee Homepage! <span>&#127877;&#127998; &#127794;</span></h1>
+    </nav></div>
+    <div id="reimbursement-homepage-grid-container">
+        <div class="navbar">
+            <a href='employee-homepage.html'>Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Menu
+                <i class="fa fa-caret-down"></i>
+              </button>
+                <div class="dropdown-content">
+                    <a href='submit-reimb.html'>Submit New Reimbursements</a>
+                    <a id='logout'>Logout</a>
+                </div>
+            </div>
+        </div>
+      
+        <div id="Reimbursements">
+            <h2>Donita's Reimbursements</h2>
+            <table id="reimbursement-table" style="width:70">
+                <thead>
+                    <tr>
+                        <th>Reimbursement Id</th>
+                        <th>Reimbursement Amount</th>
+                        <th>Reimbursement Submitted</th>
+                        <th>Reimbursement Resolved</th>
+                        <th>Reimbursement Status</th>
+                        <th>Reimbursement Type</th>
+                        <th>Reimbursement Description</th>
+                        <th>Reimbursement Author</th>
+                        <th>Reimbursement Resolver</th>
+                        <th>View Receipt</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+        </div>
+        <img id="image" />
     </div>
-    <form id= login-info>
-        <h3>Reimbursement Login In Page</h3>
-        <label for="username">Username:</label>
-        <input id="username" type="text" />
-        <label for="password">Password</label>
-        <input type="password" value="" id="myInput">
-        <input type="checkbox" onclick="myFunction()">Show Password<br>
-
-        <button id="login-btn">Login</button>
-    </form>
-
+    <script src="employee-homepage.js"></script>
 </body>
-<script>
-    function myFunction() {
-        let x = document.getElementById("myInput");
-        if (x.type === "password") {
-            x.type = "text";
-        } else {
-            x.type = "password";
-        }
-    }
-</script>
-<script src="index.js"></script>
 
 </html>
