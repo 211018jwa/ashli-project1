@@ -5,7 +5,12 @@
     <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="com.revature.model.User"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
     <fullyQualifiedTypeName name="com.revature.exception.UnauthorizedException"/>
     <fullyQualifiedTypeName name="io.cucumber.junit.platform.engine.Cucumber"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="com.revature.page.LoginPage"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
+    <fullyQualifiedTypeName name="com.revature.page.EmployeePage"/>
+    <fullyQualifiedTypeName name="com.revature.page.FinanceManagerPage"/>
 </qualifiedTypeNameHistroy>

@@ -23,6 +23,20 @@ Scenario: Valid password, invalid username (negative test)
 	And I click the login button
 	Then I should see a message of "Incorrect username and/or password"
 	
+Scenario: Valid password, valid username (positive test)
+	Given I am at the login page
+	When I type in a username of "ashli2016"
+	And I type in a password of "password$"
+	And I click the login button
+	Then I should be directed to the finance manager homepage
+	
+Scenario: Valid password, valid username (positive test)
+	Given I am at the login page
+	When I type in a username of "donita1998"
+	And I type in a password of "username$"
+	And I click the login button
+	Then I should be directed to the employee homepage
+	
 # Scenario v. Scenario Outline
 # Scenario: single grouping of steps that will be executed ONCE sequentially
 # Scenario Outline: template of steps that will be executed MULTIPLE times sequentially
@@ -38,6 +52,7 @@ Scenario Outline: Successful employee login
 		| username   | password    |
 		| "ant2021"  | "ant123$"   |
 		|"donita1998"| "username$" |
+		
 
 		
 Scenario Outline: Successful FM login
@@ -48,6 +63,6 @@ Scenario Outline: Successful FM login
 	Then I should be redirected to the finance manager homepage
 	
 	Examples:
-		| username | password |
-		| "ashli2016"   | "password$"        |		
+		| username      | password   |
+		| "ashli2016"   | "password$"|		
 		
